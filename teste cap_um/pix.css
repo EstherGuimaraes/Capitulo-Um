@@ -1,0 +1,247 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    background-color: #ffffff;
+}
+header{
+    background-color: #9863e9;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.logo{
+    margin-left: 0%;
+    margin-top: 0%;
+    background-color: #562885;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pesquisa{
+    width: 30%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: #fff 2px solid;
+}
+.aaaa{
+    margin-left: 60px;
+    color: #fff;
+    text-decoration: none;
+}
+.aaaa:hover{
+    text-decoration: underline;
+    
+
+}
+.imgLogo{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: -86px;
+    top: -92px;
+
+}
+
+button.botao-pesquisa {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: auto;
+}
+
+.pesquisaImg {
+    width: 100%;
+    height: 40%;
+    margin-left: -100px;
+}
+
+button.botao-perfil {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+.perfilImg {
+    width: 70px;
+    height: auto;
+    margin-left: -400px;;
+}
+button.botao-sacola {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 100px;
+}
+.sacolaImg {
+    width: 68px;
+    height: auto;
+    margin-left: -120px;;
+}
+button.botao-favorito {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 180px;
+}
+.favoritoImg {
+    width: 70px;
+    height: auto;
+    margin-right: -158px;;
+}
+.pix{
+    background-color: #fff;
+    border-radius: 8%;
+    padding: 1%;
+    max-width: 30%;
+    margin: 0% auto;
+    margin-left: 16%;
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    color: #562885;
+}
+.pix h2{
+    color: #9863e9;
+    margin-left: 0%;
+    margin-top: -5%;
+}
+.pix p{
+    font-size: 120%;
+    margin-top: 5%;
+    color: #562885;
+}
+
+.resumo-box {
+    width: 20%;
+    height: 20%;
+    border: 2px solid #a34bd6;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: #fff;
+    color: #3c1655;
+    margin: 30px auto;
+    margin-top: -5%;
+    margin-left: 70%;
+    display: inline-block;
+    vertical-align: top;
+}
+.resumo-box h3{
+    color: #9863e9;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.resumo-box h3 {
+    margin-top: 0;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-right: 50%;
+    margin-top: -10%;
+}
+
+.produto {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.produto img {
+    width: 70px;
+    border-radius: 6px;
+}
+
+.produto-info {
+    font-size: 14px;
+}
+
+.preco {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.cupom {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.cupom input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #a34bd6;
+    border-radius: 6px;
+}
+
+.cupom button {
+    background-color: transparent;
+    border: none;
+    color: #a34bd6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.linha {
+    border-top: 2px solid #a34bd6;
+    margin: 8px 0;
+}
+
+.valores {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.observacao {
+    margin-top: 10px;
+}
+
+.observacao input {
+    width: 100%;
+    border: 1px solid #a34bd6;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.voltar {
+    background-color: #a34bd6;
+    color: #fff;
+    font-size: 15px;
+    padding: 0px 5px;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 60%;
+    margin-top: -5%;
+}
+.voltar h2{
+    font-size: 15px;
+    padding: 0px 5px;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.pix1 button {
+    background-color: #a34bd6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.pix1{
+    margin-top: -20%;
+    margin-left: 16%;
+    background-color: #fff;
+}

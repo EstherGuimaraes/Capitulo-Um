@@ -1,0 +1,293 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    background-color: #ffffff;
+}
+header{
+    background-color: #9863e9;
+    padding: 1%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.logo{
+    margin-left: 0%;
+    margin-top: 0%;
+    background-color: #562885;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pesquisa{
+    width: 30%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: #fff 2px solid;
+}
+.aaaa{
+    margin-left: 60px;
+    color: #fff;
+    text-decoration: none;
+}
+.aaaa:hover{
+    text-decoration: underline;
+    
+
+}
+.imgLogo{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: -86px;
+    top: -92px;
+
+}
+
+button.botao-pesquisa {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: auto;
+}
+
+.pesquisaImg {
+    width: 100%;
+    height: 40%;
+    margin-left: -100px;
+}
+
+button.botao-perfil {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+.perfilImg {
+    width: 70px;
+    height: auto;
+    margin-left: -400px;;
+}
+button.botao-sacola {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 100px;
+}
+.sacolaImg {
+    width: 68px;
+    height: auto;
+    margin-left: -120px;;
+}
+button.botao-favorito {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 180px;
+}
+.favoritoImg {
+    width: 70px;
+    height: auto;
+    margin-right: -158px;;
+}
+.cartao{
+    background-color: #fff;
+    border-radius: 8%;
+    padding: 1%;
+    max-width: 30%;
+    margin: 0% auto;
+    margin-left: 12%;
+    font-family: Arial, sans-serif;
+    color: #562885;
+}
+h1{
+    text-align: center;
+    color: #562885;
+    font-family: Arial, sans-serif;
+}
+
+.cartao h2{
+    color: #9863e9;
+    margin-left: 10%;
+    margin-top: -5%;
+}
+
+.nome-cartao{
+    padding: 1% 8%;
+    margin: 1% auto;
+    margin-left: 15%;
+    margin-top: 3%;
+    display: block;
+    border: 0%  solid #562885;
+    border-radius: 0%;
+    font-size: 100%;
+}
+.numero-cartao{
+    padding: 1% 8%;
+    margin: 0% auto;
+    margin-left: 15%;
+    display: block;
+    box-shadow: #562885 0 0 0 40%;
+    border-radius: 0%;
+    font-size: 100%;
+    margin-top: 0%;
+}
+.tempo{
+    width: 20%;
+    padding: 1%;
+    margin: 0% auto;
+    margin-left: 15%;
+    margin-top: 1%;
+    display: block;
+    border: 30% solid #562885;
+    border-radius: 0%;
+    font-size: 100%;
+}
+p{
+    margin-left: 230px;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+.segurança{
+    padding: 1% 8%;
+    margin: 0% auto;
+    margin-left: 15%;
+    margin-top: 2%;
+    display: block;
+    border: 30% solid #562885;
+    border-radius: 0%;
+    font-size: 100%;
+}
+.botao-adicionar{
+    background-color: #9863e9;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 0% 8%;
+    cursor: pointer;
+    font-size: 100%;
+    margin-left: 15%;
+    margin-top: 2%;
+    border-radius: 0%;
+}
+label {
+    font-family: Arial, sans-serif;
+    color: #562885;
+    font-size: 100%;
+    margin-left: 15%;
+    cursor: pointer;
+    display: block;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.resumo-box {
+    width: 20%;
+    height: 20%;
+    border: 2px solid #a34bd6;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: #fff;
+    color: #3c1655;
+    margin: 30px auto;
+    margin-top: -5%;
+    margin-left: 70%;
+}
+.resumo-box h3{
+    color: #9863e9;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.resumo-box h3 {
+    margin-top: 0;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-right: 50%;
+    margin-top: -10%;
+}
+
+.produto {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.produto img {
+    width: 70px;
+    border-radius: 6px;
+}
+
+.produto-info {
+    font-size: 14px;
+}
+
+.preco {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.cupom {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.cupom input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #a34bd6;
+    border-radius: 6px;
+}
+
+.cupom button {
+    background-color: transparent;
+    border: none;
+    color: #a34bd6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.linha {
+    border-top: 2px solid #a34bd6;
+    margin: 8px 0;
+}
+
+.valores {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.observacao {
+    margin-top: 10px;
+}
+
+.observacao input {
+    width: 100%;
+    border: 1px solid #a34bd6;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.voltar {
+    background-color: #a34bd6;
+    color: #fff;
+    font-size: 15px;
+    padding: 6px 12px;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 60%;
+    margin-top: -5%;
+}
