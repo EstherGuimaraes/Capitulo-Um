@@ -107,8 +107,9 @@ button.botao-favorito {
     width: 50%;
     padding: 20px; /* espaço interno para o texto não grudar na borda */
     border-radius: 10px; /* opcional: bordas arredondadas */
+    color: #9863e9;
 }
-button.voltar {
+button.pagamento {
     background-color: #39ef15;
     color: #fff;
     font-size: 15px;
@@ -116,6 +117,7 @@ button.voltar {
     border-radius: 12px;
     text-align: center;
     cursor: pointer;
+    margin-top: 10px;
 }
 .informacoes{
     font-family: Arial, sans-serif;
@@ -127,4 +129,14 @@ button.voltar {
     width: 50%;
     padding: 20px; /* espaço interno para o texto não grudar na borda */
     border-radius: 10px; /* opcional: bordas arredondadas */
+}
+.detalhes{
+    text-align: left;
+    margin-bottom: 20px;
+    color: #9863e9;
+}
+.informacoes h2{
+    margin-right: 60%;
+    margin-top: 0%;
+    color: #9863e9;
 }
