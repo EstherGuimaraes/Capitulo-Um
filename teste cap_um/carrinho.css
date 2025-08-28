@@ -176,9 +176,9 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-bottom: 5%;
-    gap: 10px;
+    gap: -1px;
 }
 
 button.finalizar {
