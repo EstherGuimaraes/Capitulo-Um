@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="finalizacao.css">
     <title>Document</title>
 </head>
@@ -19,34 +22,85 @@
              
         <div class="menu-header">
        
-            <nav>
-                
-            </nav>
+    
          </div>
 
-</header>
- 
-<main>
-    <div class="final">
-        <h1>O seu pedido foi finalizado com sucesso!
-Em breve você receberá um e-mail no endereço aaaaaa@gmail.com com os detalhes do seu pedido</h1>
-<button class="pagamento">
-    <h2>Pagamento aprovado</h2>
-</button>
-    </div>
+        </header>
+    
+    <main>
+        
+        <h1>Finalizar Compra</h1>
+        <h2>___________________________</h2><br>
+        
+        <div class="informações">
 
-    <div class="informacoes">
-        <h2>Detalhes do pedido</h2>
-        <h2 class="detalhes">
-            ID: <br>
-            Total: <br>
-            Formas de pagamento: <br>
-            Forma de envio: <br>
-            CEP de entrega: <br>
-        </h2>
-    </div>
-</main>
+            <label for="Nome completo">Nome Completo</label><br>
+            <input type="text" placeholder="Nome Completo" required><br>
+
+            <label for="Email">Email</label><br>
+            <input type="email" placeholder="Email" required><br>
+
+            <label for="Endereço">Endereço</label><br>
+            <input type="text" placeholder="Endereço de Entrega" required><br> 
+
+            <label for="Complemento">Complemento</label><br>
+            <input type="text" placeholder="Complemento" required><br>
+
+            <label for="CPF">CPF</label><br>
+            <input type="text" placeholder="CPF" required><br>
+
+        </div>
+        <div class="pagamento">
+            <label for="Forma de Pagamento">Forma de Pagamento</label><br>
+
+            <button class="botão-débito">Débito</button>
+            <button class="botão-crédito">Crédito</button>
+            <button class="botão-pix">Pix</button>
+        </div>
+
+        
+        <div class="resumo-box">
+            <button class="voltar">
+            <h2>Voltar ao carrinho</h2>
+            </button>
+
+
+            <h3>Resumo do pedido</h3>
+
+            <div class="produto">
+                <img src="IMG/Site.jpg" alt="Livro Os sete maridos de Evelyn Hugo">
+                <div class="produto-info">
+                Os sete maridos de Evelyn Hugo
+                <div class="preco">R$ 49,90</div>
+                </div>
+        </div>
+
+        <div class="cupom">
+            <input type="cupom" placeholder="Código">
+            <button>Adicionar</button>
+        </div>
+
+        <div class="linha"></div>
+
+            <div class="valores"><span>Subtotal</span><span>R$ 49,90</span></div>
+            <div class="valores"><span>Total</span><span>R$ 49,90</span></div>
+
+            <div class="linha"></div>
+
+            <div class="observacao">
+            <label>Observação</label>
+            <input type="observacao" placeholder="">
+            </div>
+        </div>
+
+    </main>
+        </div>
+
+    </main>
+
+
     <script src="barra.js"></script>
+    
     
 </body>
 </html>
