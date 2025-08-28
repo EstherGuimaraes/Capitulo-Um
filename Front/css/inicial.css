@@ -101,38 +101,96 @@ button.botao-favorito {
 
 .livro{
     align-items: center;
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(255, 255, 255);
     max-width: 600px;
     margin: 20px;
-    padding: 20px ;
-    border-radius: 10px;
+    padding: 30px 30px;
+    border-radius: 20px;
+    margin-left: 50px;
 }
 
 section{
     display: flex;
-    margin-left: 2%;
-    
+    margin-left: 2%;    
 }
+
 img {
     height: 200px;
     width:130px;
+    margin-left: 13px;
+    
 }
 
 .fileira1 {
-    margin-top: 5%;   
+    margin-top: 4%;   
 }
 
 .nomelivro{
     font-family: "merriweather", serif;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: bold;
     color: #562885;
+    margin-left: 15px;
     
 }
 
 .nomeautor{
     font-family: "archivo", sans-serif;
     font-size: 12px;
-    color: #767071;
+    color: #562885;
     margin-bottom: 10px;
+    margin-left: 15px;
 }
+
+h1{
+    font-family: "merriweather", serif;
+    color: #562885;
+    margin-top: 1%;
+    margin-left: 15%;
+    font-size: 35px;
+    border-bottom: 3px solid #562885;
+    display: block; 
+    width: 20%;
+    padding-bottom: 1px;
+
+}
+
+.livrofv{
+    width: 50px;
+    height: auto;
+    margin-left: 240%;
+    margin-top: -0,3%;
+}
+
+.livrofv-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.valor{
+    font-family: merriweather, serif;
+    font-size: 20px;
+    color: #562885;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.botao-comprar {
+    background-color: #ac7adf;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 24px;
+    font-size: 16px;
+    font-family: "merriweather", serif;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+    margin-left: 15px;
+}
+.botao-comprar:hover {
+    background-color: #ac7adf;
+}
+

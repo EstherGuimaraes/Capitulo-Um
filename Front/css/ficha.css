@@ -115,6 +115,37 @@ h3{
     margin-top: 3%;
 }
 
+button.ficha-tecnica {
+    font-size: 1.17em;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 55px;
+    background-color: #ac7adf;
+    border: 2px #562885 solid;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color:#562885;
+    font-size: 24px;
+    margin-top: 3%;
+}
+
+button.sinopse {
+    font-size: 1.17em;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    border: 2px #562885 solid;
+    border-radius: 30px;
+    padding: 10px 60px;
+    color:#562885;
+    font-size: 24px;
+    margin-top: 3%;
+}
+
 .ficha {
     padding: 10px 20px;
     background-color: #ac7adf;
