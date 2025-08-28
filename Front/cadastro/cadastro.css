@@ -1,0 +1,168 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    background-color: #fff6ea;
+}
+header{
+    background-color: #9863e9;
+    padding: 20px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+.logo{
+    margin-left: 0%;
+    margin-top: 0%;
+    background-color: #562885;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aaaa{
+    margin-left: 60px;
+    color: #fff;
+    text-decoration: none;
+}
+.aaaa:hover{
+    text-decoration: underline;
+    
+
+}
+.imgLogo{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: -86px;
+    top: -92px;
+
+}
+
+button.botao-perfil {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+.perfilImg {
+    width: 70px;
+    height: auto;
+    margin-left: -400px;
+    margin-left: 7%;
+}
+button.botao-sacola {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 100px;
+}
+.sacolaImg {
+    width: 68px;
+    height: auto;
+    margin-left: 68%;
+}
+button.botao-favorito {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 180px;
+}
+.favoritoImg {
+    width: 70px;
+    height: auto;
+    margin-right: -158px;
+    margin-left: 96%;
+    margin-top: 1%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    min-height: 80vh;
+    background-color:#fff6ea;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto; 
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+form {
+    width: 400px; /* aumenta a largura do formulário */
+    display: flex;
+    flex-direction: column;
+    gap: 0px; /* espaço entre os campos */
+    border-radius: 16px;
+    margin-top: 3%;
+}
+
+input[type="date"],
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+button {
+    border-radius: 5px;
+    width: 30%;
+    font-size: 18px;
+    padding: 6px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* borda opcional */
+    
+}
+button {
+    background-color: #562885; /* cor de fundo do botão */
+    color: #fff;               /* cor do texto do botão */
+    border-radius: 5px;
+    width: 30%;
+    font-size: 25px;
+    padding: 6px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto; 
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+label {
+    text-align: left;
+    width: 30%;
+    display: block;
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+.caixa-cadastro-titulo {
+    background: #562885;
+    border-radius: 18px;
+    padding: 12px 32px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -20px;
+    color: white;
+    top: 30px;
+    margin-top: 2%;
+    
+}
+footer {
+    background-color: #fff6ea; 
+    min-height: 80px;      /* altura mínima para aparecer */
+    width: 100%;
+}
+
