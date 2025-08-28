@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página de cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cadastro.css">
+
+</head>
+<body>
+    <div class="logo">
+            <img class="imgLogo" src="FAÇA SEU LOGIN.png" alt="logo" >
+                <button class="botao-perfil"><img class="perfilImg" src="perfil.png" alt=""></button>
+                <button class="botao-sacola"><img class="sacolaImg" src="sacola.png" alt=""></button>
+                <button class="botao-favorito"><img class="favoritoImg" src="favoritos.png" alt=""></button>
+        </div>
+    <header>
+        <div class="menu-header"></div>
+    </header>
+    <script src="barra.js"></script>
+
+    <main>
+    <div class="caixa-cadastro-titulo"> 
+        CADASTRO
+    </div>
+    
+    <form action="/processar" method="POST"></form>  
+    <label for="nome">Nome </label>
+    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required><br>
+<p>                                                 </p>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required><br>
+<p>                                                  </p>
+       
+
+        <label for="data_nascimento">Data de Nascimento</label>
+        <input type="date" id="data_nascimento" name="data_nascimento" required><br>
+<p>                                                  </p>
+
+        <label for="CPF">CPF</label>
+        <input type="text" id="CPF" name="CPF" placeholder="Digite seu CPF" required pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"><br>
+<p>                                                  </p>
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required pattern="\(\d{2}\) \d{5}-\d{4}"><br>
+<p>                                                  </p>
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required><br>
+<p>                                                  </p>
+        <button type="submit">Enviar</button>
+    </form>
+
+</main>
+<footer>
+</footer>
+<body>
+</html>
