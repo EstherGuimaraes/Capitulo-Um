@@ -215,7 +215,8 @@ button.adicionarCarrinho {
 }
 
 button.sinopse {
-    width: 32% ;
+    width: 302%;
+    height: 100%;
     background-color: transparent;
     color: #562885;
     border: #562885 2px solid;
@@ -229,7 +230,8 @@ button.sinopse {
 
 
 button.ficha {
-    width: 32% ;
+    width: 302%;
+    height: 100%;
     background-color: transparent;
     color: #562885;
     border: #562885 2px solid;
@@ -237,6 +239,6 @@ button.ficha {
     padding: 2% 3%;
     font-size: 16px;
     cursor: pointer;
-    margin-left: 3%;
+    margin-left: 120%;
     
 }

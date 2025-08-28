@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: #ffffff;
+    background-color: #fff6ea;
 }
 header{
     background-color: #9863e9;
@@ -98,7 +98,6 @@ button.botao-favorito {
     margin-right: -158px;;
 }
 .cartao{
-    background-color: #fff;
     border-radius: 8%;
     padding: 1%;
     max-width: 30%;

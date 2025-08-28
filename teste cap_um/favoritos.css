@@ -1,7 +1,6 @@
-
 *{
     margin: 0%;
-    padding: 0;
+    padding: 0%;
 }
 body{
     background-color: #fff6ea;
@@ -104,7 +103,7 @@ button.botao-favorito {
     background-color: rgb(255, 255, 255);
     max-width: 600px;
     margin: 20px;
-    padding: 30px 30px;
+    padding: 20px ;
     border-radius: 20px;
     margin-left: 50px;
 }
@@ -117,20 +116,20 @@ section{
 img {
     height: 200px;
     width:130px;
-    margin-left: 13px;
+    margin-left: 20px;
     
 }
 
 .fileira1 {
-    margin-top: 4%;   
+    margin-top: 2%;   
 }
 
 .nomelivro{
     font-family: "merriweather", serif;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: bold;
     color: #562885;
-    margin-left: 15px;
+    margin-left: 20px;
     
 }
 
@@ -139,7 +138,7 @@ img {
     font-size: 12px;
     color: #562885;
     margin-bottom: 10px;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 h1{
@@ -168,7 +167,6 @@ h1{
     padding: 0;
     cursor: pointer;
 }
-
 .valor{
     font-family: merriweather, serif;
     font-size: 20px;
@@ -188,9 +186,10 @@ h1{
     cursor: pointer;
     margin-top: 10px;
     transition: background 0.3s;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 .botao-comprar:hover {
     background-color: #ac7adf;
 }
+
 
