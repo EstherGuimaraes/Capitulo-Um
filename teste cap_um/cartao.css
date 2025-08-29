@@ -6,7 +6,7 @@ body{
     background-color: #fff6ea;
 }
 header{
-    background-color: #9863e9;
+    background-color: #ac7adf;
     padding: 1%;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -71,7 +71,8 @@ button.botao-perfil {
 .perfilImg {
     width: 70px;
     height: auto;
-    margin-left: -400px;;
+    margin-left: -400px;
+    margin-top: -15px;
 }
 button.botao-sacola {
     background-color: transparent;
@@ -83,7 +84,8 @@ button.botao-sacola {
 .sacolaImg {
     width: 68px;
     height: auto;
-    margin-left: -120px;;
+    margin-left: -120px;
+    margin-top: -15px;
 }
 button.botao-favorito {
     background-color: transparent;
@@ -95,7 +97,8 @@ button.botao-favorito {
 .favoritoImg {
     width: 70px;
     height: auto;
-    margin-right: -158px;;
+    margin-right: -158px;
+    margin-top: -10px;
 }
 .cartao{
     border-radius: 8%;
@@ -110,6 +113,7 @@ h1{
     text-align: center;
     color: #562885;
     font-family: Arial, sans-serif;
+    margin-left: -19%;
 }
 
 .cartao h2{
@@ -150,7 +154,7 @@ h1{
     font-size: 100%;
 }
 p{
-    margin-left: 230px;
+    margin-left: 15%;
     margin-top: 20px;
     font-family: Arial, sans-serif;
     color: #000000;
@@ -165,17 +169,16 @@ p{
     border-radius: 0%;
     font-size: 100%;
 }
-.botao-adicionar{
-    background-color: #9863e9;
+button.botao-adicionar{
+    background-color: #ac7adf;
     color: #fff;
     border: none;
-    border-radius: 20px;
+    border-radius: 0%;
     padding: 0% 8%;
     cursor: pointer;
     font-size: 100%;
     margin-left: 15%;
     margin-top: 2%;
-    border-radius: 0%;
 }
 label {
     font-family: Arial, sans-serif;
@@ -191,17 +194,17 @@ label {
 .resumo-box {
     width: 20%;
     height: 20%;
-    border: 2px solid #a34bd6;
+    border: 2px solid #ac7adf;
     border-radius: 12px;
     padding: 15px;
     background-color: #fff;
     color: #3c1655;
     margin: 30px auto;
-    margin-top: -5%;
+    margin-top: -25%;
     margin-left: 70%;
 }
 .resumo-box h3{
-    color: #9863e9;
+    color: #562885;
     text-align: center;
     font-family: Arial, sans-serif;
 }
@@ -244,20 +247,20 @@ label {
 .cupom input {
     flex: 1;
     padding: 5px;
-    border: 1px solid #a34bd6;
+    border: 1px solid #562885;
     border-radius: 6px;
 }
 
 .cupom button {
     background-color: transparent;
     border: none;
-    color: #a34bd6;
+    color: #562885;
     font-weight: bold;
     cursor: pointer;
 }
 
 .linha {
-    border-top: 2px solid #a34bd6;
+    border-top: 2px solid #562885;
     margin: 8px 0;
 }
 
@@ -272,14 +275,14 @@ label {
 }
 
 .observacao input {
-    width: 100%;
-    border: 1px solid #a34bd6;
+    width: 97%;
+    border: 1px solid #562885;
     border-radius: 6px;
     padding: 5px;
 }
 
 .voltar {
-    background-color: #a34bd6;
+    background-color: #ac7adf;
     color: #fff;
     font-size: 15px;
     padding: 6px 12px;
@@ -288,5 +291,12 @@ label {
     cursor: pointer;
     margin-bottom: 10px;
     margin-left: 60%;
-    margin-top: -5%;
+    margin-top: -4%;
+}
+
+.voltar h2 {
+    margin: 0;
+    font-size: 15px;
+    color: #fff;
+
 }

@@ -6,7 +6,7 @@ body{
     background-color: #fff6ea;
 }
 header{
-    background-color: #9863e9;
+    background-color: #ac7adf;
     padding: 20px;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -50,7 +50,7 @@ button.botao-perfil {
 .perfilImg {
     width: 70px;
     height: auto;
-    margin-left: 68%;
+    margin-left: 77%;
 }
 button.botao-sacola {
     background-color: transparent;
@@ -62,7 +62,7 @@ button.botao-sacola {
 .sacolaImg {
     width: 68px;
     height: auto;
-    margin-left: 92%;;
+    margin-left: 95.5%;;
     
 }
 button.botao-favorito {
@@ -120,8 +120,8 @@ button {
 }
 
 .titulo-container {
-  align-self: flex-start;   /* Alinha o bloco à esquerda do main */
-  margin-left: 16%;         /* Ajuste conforme quiser o "recuo" */
+  align-self: flex-start;   
+  margin-left: 16%;         
   margin-bottom: 17%;
   max-width: 500px;
   display: inline-block;
@@ -138,8 +138,8 @@ button {
 .linha-titulo {
   border: none;
   height: 4px;
-  background-color: #b97ced; /* ou a cor roxa que está usando */
-  width: 100%;               /* ajuste até bater com o tamanho do título */
+  background-color: #b97ced;
+  width: 100%;               
   margin-top: 5px;
   margin-bottom: 30px;
 }

@@ -6,7 +6,7 @@ body{
     background-color: #fff6ea;
 }
 header{
-    background-color: #9863e9;
+    background-color: #ac7adf;
     padding: 20px;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -49,7 +49,7 @@ button.botao-perfil {
 .perfilImg {
     width: 70px;
     height: auto;
-    margin-right: 20%;
+    margin-right: 10%;
 }
 button.botao-sacola {
     background-color: transparent;
@@ -61,7 +61,8 @@ button.botao-sacola {
 .sacolaImg {
     width: 68px;
     height: auto;
-    margin-left: 60%;
+    margin-left: 61%;
+    margin-top: 2px;
 }
 button.botao-favorito {
     background-color: transparent;
