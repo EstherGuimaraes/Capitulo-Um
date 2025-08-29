@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    background-color: #fff6ea;
+}
+header{
+    background-color: #ac7adf;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.logo{
+    margin-left: 0%;
+    margin-top: 0%;
+    background-color: #562885;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aaaa{
+    margin-left: 60px;
+    color: #fff;
+    text-decoration: none;
+}
+.aaaa:hover{
+    text-decoration: underline;
+    
+
+}
+.imgLogo{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: -86px;
+    top: -92px;
+
+}
+
+button.botao-perfil {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+.perfilImg {
+    width: 70px;
+    height: auto;
+    margin-left: 77%;
+}
+button.botao-sacola {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 100px;
+}
+.sacolaImg {
+    width: 68px;
+    height: auto;
+    margin-left: 95.5%;;
+    
+}
+button.botao-favorito {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 180px;
+}
+.favoritoImg {
+    width: 70px;
+    height: auto;
+    margin-left: 105%;
+}
+main {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    background-color:#fff6ea;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px; 
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 50;
+    margin-right: 20px;
+}
+.container{
+    margin-top: -10%;
+}
+input[type="text"], input[type="tel"] {
+    width: 77%;
+    padding: 2%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 1%;
+    font-size: 16px;
+    margin-left: 20%;
+}
+button {
+    width: 80%;
+    padding: 2%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 20%;
+    background-color: #562885;
+    color: white;
+    font-family: "merriweather", serif;
+    font-weight:bolder;
+}
+
+.titulo-container {
+  align-self: flex-start;   
+  margin-left: 16%;         
+  margin-bottom: 17%;
+  max-width: 500px;
+  display: inline-block;
+  flex-direction: column;
+  margin-top: 0%;
+}
+
+.titulo {
+    font-size: 40px;
+    color: #562885;
+    font-family: "merriweather", serif;
+    font-weight: 600;
+}
+.linha-titulo {
+  border: none;
+  height: 4px;
+  background-color: #b97ced;
+  width: 100%;               
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+h2{
+    font-size: 16px;
+    margin-left: 17%;
+    font-weight: lighter;
+}
+
+

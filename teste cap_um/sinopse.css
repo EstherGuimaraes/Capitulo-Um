@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    background-color: #fff6ea;
+}
+header{
+    background-color: #ac7adf;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.logo{
+    margin-left: 0%;
+    margin-top: 0%;
+    background-color: #562885;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pesquisa{
+    width: 30%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: #fff 2px solid;
+}
+.aaaa{
+    margin-left: 60px;
+    color: #fff;
+    text-decoration: none;
+}
+.aaaa:hover{
+    text-decoration: underline;
+    
+
+}
+.imgLogo{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: -86px;
+    top: -92px;
+
+}
+
+button.botao-pesquisa {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: auto;
+}
+
+.pesquisaImg {
+    width: 100%;
+    height: 40%;
+    margin-left: -100px;
+}
+
+button.botao-perfil {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+.perfilImg {
+    width: 70px;
+    height: auto;
+    margin-left: -400px;
+    margin-top: -15px;
+}
+button.botao-sacola {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 100px;
+}
+.sacolaImg {
+    width: 68px;
+    height: auto;
+    margin-left: -120px;
+    margin-top: -15px;
+}
+button.botao-favorito {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 180px;
+}
+.favoritoImg {
+    width: 70px;
+    height: auto;
+    margin-right: -158px;
+    margin-top: -15px;
+}
+
+.livro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:400px;
+   
+}
+
+h3{
+    border: 2px #562885 solid;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color:#562885;
+    font-size: 24px;
+    margin-top: 3%;
+}
+
+p{  margin-top: 1%;
+    padding: 0px 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    font-size: 20px;
+        
+}
+
+button.sinopse {
+    font-size: 1.17em;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 55px;
+    background-color: #ac7adf;
+    border: 2px #562885 solid;
+    border-radius: 30px;
+    padding: 10px 60px;
+    color:#562885;
+    font-size: 24px;
+    margin-top: 3%;
+}
+
+button.ficha-tecnica {
+    font-size: 1.17em;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    border: 2px #562885 solid;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color:#562885;
+    font-size: 24px;
+    margin-top: 3%;
+}
+
+.ficha-tecnica {
+    padding: 10px 30px;
+    
+    
+}

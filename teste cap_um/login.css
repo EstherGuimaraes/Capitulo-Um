@@ -1,0 +1,255 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    background-color: #fff6ea;
+}
+header{
+    background-color: #ac7adf;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.logo{
+    margin-left: 0%;
+    margin-top: 0%;
+    background-color: #562885;
+    min-height: 90px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.aaaa{
+    margin-left: 60px;
+    color: #fff;
+    text-decoration: none;
+}
+.aaaa:hover{
+    text-decoration: underline;
+    
+
+}
+.imgLogo{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: -86px;
+    top: -92px;
+
+}
+
+button.botao-perfil {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    margin-bottom: 7%;
+}
+.perfilImg {
+    width: 70px;
+    height: auto;
+    margin-left: -35%;
+    margin-top: -115px;
+}
+button.botao-sacola {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 100px;
+    margin-bottom: 7%;
+}
+.sacolaImg {
+    width: 68px;
+    height: auto;
+    margin-top: -200px;
+    margin-left: 170%;
+}
+button.botao-favorito {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 180px;
+    margin-bottom: 7%;
+}
+.favoritoImg {
+    width: 70px;
+    height: auto;
+    margin-right: -430px;
+    margin-top: -115px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    min-height: 70vh;
+    background-color:#fff6ea;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto; 
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+.login-container {
+  background-color: #562885;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  color: white;
+  text-align: center;
+  height: 35vh;
+}
+
+.login-container label {
+  display: flex;
+  justify-content: space-between; /* deixa "Esqueceu?" alinhado à direita */
+  margin: 10px 30px 5px;
+  font-size: 14px;
+}
+
+.login-container input {
+  width: 80%;
+  padding: 2%;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 5%;
+}
+.login-container h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.senha-container {
+    position: relative;
+    width: 100%;
+}
+
+.senha-container input {
+    width: 80%;
+    padding: 2%;
+    border: none;
+    border-radius: 6px;
+}
+
+.esqueceu-link {
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: #562885;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button{
+  padding: 2% 10%;
+  font-size: large;
+  border-radius: 10%;
+  border: none;
+}
+.linha-titulo {
+  border: none;
+  height: 3px;
+  background-color: white;
+  margin: 0% -10% 20px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+  width: 33%;
+}
+
+.divider hr {
+  flex: 1;
+  height: 4px;
+  background-color: #562885;
+}
+
+.divider span {
+  padding: 0 10px;
+  color: #555;
+  font-weight: bold;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 4%;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4%;
+  padding: 3%;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  background-color: #562885; /* roxo para todos */
+  width: 100px;
+  transition: 0.3s;
+}
+
+.social-btn:hover {
+  background-color: #682fa5;
+}
+
+.social-buttons button img {
+  width: 10%;
+  height: 20px;
+}
+.google-btn,
+.facebook-btn {
+  width: 250px;   /* aumenta a largura */
+}
+.link-esqueci-senha{
+  margin-left: 85%;
+  margin-top: -18%;
+}
+.link-cadastro {
+  margin-top: 35px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.link-cadastro a {
+  color: #562885; /* destaque */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link-cadastro a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -6,7 +6,7 @@ body{
     background-color: #fff6ea;
 }
 header{
-    background-color: #9863e9;
+    background-color: #ac7adf;
     padding: 20px;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -71,7 +71,8 @@ button.botao-perfil {
 .perfilImg {
     width: 70px;
     height: auto;
-    margin-left: -400px;;
+    margin-left: -400px;
+    margin-top: -15px;
 }
 button.botao-sacola {
     background-color: transparent;
@@ -83,7 +84,8 @@ button.botao-sacola {
 .sacolaImg {
     width: 68px;
     height: auto;
-    margin-left: -120px;;
+    margin-left: -120px;
+    margin-top: -15px;
 }
 button.botao-favorito {
     background-color: transparent;
@@ -95,7 +97,8 @@ button.botao-favorito {
 .favoritoImg {
     width: 70px;
     height: auto;
-    margin-right: -158px;;
+    margin-right: -158px;
+    margin-top: -15px;
 }
 
 main{
@@ -128,7 +131,7 @@ button.buttonFavoritar {
     margin: 5%;
     position: absolute;
     left: 30%;
-    top: 31%;
+    top: 20%;
 }
 
 .imgProduto {
@@ -215,7 +218,8 @@ button.adicionarCarrinho {
 }
 
 button.sinopse {
-    width: 32% ;
+    width: 160%;
+    height: 40px;
     background-color: transparent;
     color: #562885;
     border: #562885 2px solid;
@@ -229,7 +233,8 @@ button.sinopse {
 
 
 button.ficha {
-    width: 32% ;
+    width: 160%;
+    height: 100%;
     background-color: transparent;
     color: #562885;
     border: #562885 2px solid;
@@ -237,6 +242,6 @@ button.ficha {
     padding: 2% 3%;
     font-size: 16px;
     cursor: pointer;
-    margin-left: 3%;
+    margin-left: 50%;
     
 }
