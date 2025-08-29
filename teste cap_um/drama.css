@@ -1,0 +1,289 @@
+
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    background-color: #fff6ea;
+}
+header{
+    background-color: #9863e9;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.logo{
+    margin-left: 0%;
+    margin-top: 0%;
+    background-color: #562885;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pesquisa{
+    width: 30%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: #fff 2px solid;
+}
+.aaaa{
+    margin-left: 60px;
+    color: #fff;
+    text-decoration: none;
+}
+.aaaa:hover{
+    text-decoration: underline;
+    
+
+}
+.imgLogo{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: -86px;
+    top: -92px;
+
+}
+
+button.botao-pesquisa {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: auto;
+    margin-top: 0%;
+}
+
+.pesquisaImg {
+    width: 100%;
+    height: 40%;
+    margin-left: -100px;
+}
+
+button.botao-perfil {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+.perfilImg {
+    width: 70px;
+    height: auto;
+    margin-left: -400px;;
+}
+button.botao-sacola {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 100px;
+}
+.sacolaImg {
+    width: 68px;
+    height: auto;
+    margin-left: -120px;;
+}
+button.botao-favorito {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 180px;
+}
+.favoritoImg {
+    width: 70px;
+    height: auto;
+    margin-right: -158px;;
+}
+
+.livro{
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    max-width: 600px;
+    margin: 20px;
+    padding: 30px 30px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+section{
+    display: flex;
+    margin-left: 0.3%;    
+}
+
+img {
+    height: 200px;
+    width:130px;
+    margin-left: 13px;
+    
+}
+
+.fileira1 {
+    margin-top: 4%;   
+}
+
+.nomelivro{
+    font-family: "merriweather", serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #562885;
+    margin-left: 15px;
+    
+}
+
+.nomeautor{
+    font-family: "archivo", sans-serif;
+    font-size: 12px;
+    color: #562885;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+h1{
+    font-family: "merriweather", serif;
+    color: #562885;
+    margin-top: 1%;
+    margin-left: 15%;
+    font-size: 35px;
+    border-bottom: 3px solid #562885;
+    display: block; 
+    width: 20%;
+    padding-bottom: 1px;
+
+}
+
+.livrofv{
+    width: 50px;
+    height: auto;
+    margin-left: 240%;
+    margin-top: -0,3%;
+}
+
+.livrofv-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.valor{
+    font-family: merriweather, serif;
+    font-size: 20px;
+    color: #562885;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.botao-comprar {
+    background-color: #ac7adf;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 24px;
+    font-size: 16px;
+    font-family: "merriweather", serif;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+    margin-left: 15px;
+}
+.botao-comprar:hover {
+    background-color: #ac7adf;
+}
+
+.carrossel-container {
+    position: relative;
+    max-width: 600px;
+    margin: 30px auto 0 auto;
+}
+.carrossel-slide {
+    display: none;
+}
+.carrossel-slide img {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.carrossel-prev, .carrossel-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #562885;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background: rgba(255,255,255,0.7);
+    transition: 0.2s;
+}
+.carrossel-next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.carrossel-prev:hover, .carrossel-next:hover {
+    background: #eee;
+}
+.carrossel-dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+.carrossel-dot.active {
+    background-color: #562885;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 0.7s;
+}
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+.carrossel-livros {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto 30px auto;
+    position: relative;
+}
+.carrossel-livros-viewport {
+    overflow: hidden;
+    width: 1000px;
+}
+.carrossel-livros-list {
+    display: flex;
+    transition: transform 0.4s;
+}
+.carrossel-livros-btn {
+    background: #fff;
+    border: 1px solid #562885;
+    color: #562885;
+    font-size: 2rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 2;
+}
+.carrossel-livros-btn.left {
+    margin-right: 10px;
+}
+.carrossel-livros-btn.right {
+    margin-left: 10px;
+}
+.carrossel-livros-list .livro {
+    min-width: 180px;
+    margin: 0 10px;
+}
