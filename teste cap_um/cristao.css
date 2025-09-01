@@ -1,4 +1,3 @@
-
 *{
     margin: 0%;
     padding: 0;
@@ -7,7 +6,7 @@ body{
     background-color: #fff6ea;
 }
 header{
-    background-color: #9863e9;
+    background-color: #ac7adf;
     padding: 20px;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -54,7 +53,6 @@ button.botao-pesquisa {
     cursor: pointer;
     width: 40px;
     height: auto;
-    margin-top: 0%;
 }
 
 .pesquisaImg {
@@ -73,7 +71,8 @@ button.botao-perfil {
 .perfilImg {
     width: 70px;
     height: auto;
-    margin-left: -400px;;
+    margin-left: -400px;
+    margin-top: -15px;
 }
 button.botao-sacola {
     background-color: transparent;
@@ -85,7 +84,8 @@ button.botao-sacola {
 .sacolaImg {
     width: 68px;
     height: auto;
-    margin-left: -120px;;
+    margin-left: -120px;
+    margin-top: -15px;
 }
 button.botao-favorito {
     background-color: transparent;
@@ -97,7 +97,8 @@ button.botao-favorito {
 .favoritoImg {
     width: 70px;
     height: auto;
-    margin-right: -158px;;
+    margin-right: -158px;
+    margin-top: -15px;
 }
 
 .livro{

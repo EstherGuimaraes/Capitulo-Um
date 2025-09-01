@@ -75,8 +75,8 @@ button.botao-favorito {
     border: none;
     cursor: pointer;
     position: absolute;
-    right: 180px;
-    margin-bottom: 7%;
+    right: 115px;
+    margin-top: -1.4%;
 }
 .favoritoImg {
     width: 70px;
