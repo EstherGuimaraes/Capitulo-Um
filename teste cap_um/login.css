@@ -63,6 +63,8 @@ button.botao-perfil {
     cursor: pointer;
     position: absolute;
     right: 20px;
+    right: -173px;
+    margin-top: -38px;
 }
 .perfilImg {
     width: 70px;
@@ -75,7 +77,8 @@ button.botao-sacola {
     border: none;
     cursor: pointer;
     position: absolute;
-    right: 100px;
+    right: -92px;
+    margin-top: -38px;
 }
 .sacolaImg {
     width: 68px;
@@ -88,7 +91,8 @@ button.botao-favorito {
     border: none;
     cursor: pointer;
     position: absolute;
-    right: 180px;
+    right: -18px;
+    margin-top: -38px;
 }
 .favoritoImg {
     width: 70px;

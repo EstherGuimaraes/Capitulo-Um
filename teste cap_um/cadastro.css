@@ -66,12 +66,13 @@ button.botao-perfil {
     border: none;
     cursor: pointer;
     position: absolute;
-    right: 20px;
+    right: -173px;
+    
 }
 .perfilImg {
     width: 70px;
     height: auto;
-    margin-left: -400px;
+    margin-left: -225px;
     margin-top: -15px;
 }
 button.botao-sacola {
@@ -84,7 +85,7 @@ button.botao-sacola {
 .sacolaImg {
     width: 68px;
     height: auto;
-    margin-left: -120px;
+    margin-left: 439px;
     margin-top: -15px;
 }
 button.botao-favorito {
@@ -97,7 +98,7 @@ button.botao-favorito {
 .favoritoImg {
     width: 70px;
     height: auto;
-    margin-right: -158px;
+    margin-right: -729px;
     margin-top: -15px;
 }
 
@@ -153,10 +154,9 @@ main {
     "wdth" 100;
 }
 form {
-    width: 400px; /* aumenta a largura do formulário */
-    display: flex;
+    width: 400px; 
     flex-direction: column;
-    gap: 0px; /* espaço entre os campos */
+    gap: 0px;
     border-radius: 16px;
     margin-top: 3%;
 }
@@ -172,12 +172,12 @@ button {
     font-size: 18px;
     padding: 6px;
     box-sizing: border-box;
-    border: 1px solid #ccc; /* borda opcional */
+    border: 1px solid #ccc; 
     
 }
 button {
-    background-color: #562885; /* cor de fundo do botão */
-    color: #fff;               /* cor do texto do botão */
+    background-color: #562885; 
+    color: #fff;               
     border-radius: 5px;
     width: 30%;
     font-size: 25px;
@@ -236,7 +236,7 @@ label {
 }
 footer {
     background-color: #fff6ea; 
-    min-height: 80px;      /* altura mínima para aparecer */
+    min-height: 80px;
     width: 100%;
 }
 
