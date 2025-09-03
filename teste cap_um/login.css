@@ -42,19 +42,33 @@ header{
 
 }
 
+button.botao-pesquisa {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: auto;
+    margin-top: 0%;
+}
+
+.pesquisaImg {
+    width: 100%;
+    height: 40%;
+    margin-left: -100px;
+}
+
 button.botao-perfil {
     background-color: transparent;
     border: none;
     cursor: pointer;
     position: absolute;
     right: 20px;
-    margin-bottom: 7%;
 }
 .perfilImg {
     width: 70px;
     height: auto;
-    margin-left: -35%;
-    margin-top: -115px;
+    margin-left: -400px;
+    margin-top: -15px;
 }
 button.botao-sacola {
     background-color: transparent;
@@ -62,27 +76,25 @@ button.botao-sacola {
     cursor: pointer;
     position: absolute;
     right: 100px;
-    margin-bottom: 7%;
 }
 .sacolaImg {
     width: 68px;
     height: auto;
-    margin-top: -200px;
-    margin-left: 170%;
+    margin-left: -120px;
+    margin-top: -15px;
 }
 button.botao-favorito {
     background-color: transparent;
     border: none;
     cursor: pointer;
     position: absolute;
-    right: 115px;
-    margin-top: -1.4%;
+    right: 180px;
 }
 .favoritoImg {
     width: 70px;
     height: auto;
-    margin-right: -430px;
-    margin-top: -115px;
+    margin-right: -158px;
+    margin-top: -15px;
 }
 
 main{
