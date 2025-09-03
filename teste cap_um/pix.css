@@ -6,7 +6,7 @@ body{
     background-color: #fff6ea;
 }
 header{
-    background-color: #9863e9;
+    background-color: #ac7adf;
     padding: 20px;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -108,7 +108,7 @@ button.botao-favorito {
     color: #562885;
 }
 .pix h2{
-    color: #9863e9;
+    color: #ac7adf;
     margin-left: 0%;
     margin-top: -5%;
 }
@@ -121,7 +121,7 @@ button.botao-favorito {
 .resumo-box {
     width: 20%;
     height: 20%;
-    border: 2px solid #a34bd6;
+    border: 2px solid #562885;
     border-radius: 12px;
     padding: 15px;
     background-color: #fff;
@@ -133,7 +133,7 @@ button.botao-favorito {
     vertical-align: top;
 }
 .resumo-box h3{
-    color: #9863e9;
+    color: #562885;
     text-align: center;
     font-family: Arial, sans-serif;
 }
@@ -176,20 +176,20 @@ button.botao-favorito {
 .cupom input {
     flex: 1;
     padding: 5px;
-    border: 1px solid #a34bd6;
+    border: 1px solid #562885;
     border-radius: 6px;
 }
 
 .cupom button {
     background-color: transparent;
     border: none;
-    color: #a34bd6;
+    color: #562885;
     font-weight: bold;
     cursor: pointer;
 }
 
 .linha {
-    border-top: 2px solid #a34bd6;
+    border-top: 2px solid #562885;
     margin: 8px 0;
 }
 
@@ -205,13 +205,13 @@ button.botao-favorito {
 
 .observacao input {
     width: 100%;
-    border: 1px solid #a34bd6;
+    border: 1px solid #562885;
     border-radius: 6px;
     padding: 5px;
 }
 
 .voltar {
-    background-color: #a34bd6;
+    background-color: #ac7adf;
     color: #fff;
     font-size: 15px;
     padding: 0px 5px;
@@ -230,7 +230,7 @@ button.botao-favorito {
     cursor: pointer;
 }
 .pix1 button {
-    background-color: #a34bd6;
+    background-color: #ac7adf;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -240,7 +240,13 @@ button.botao-favorito {
     margin-top: 20px;
 }
 .pix1{
-    margin-top: -20%;
-    margin-left: 16%;
+    margin-top: -14%;
+    margin-left: 17%;
     
+}
+
+label[for="pagamento"] {
+
+    font-weight: bold;
+    color: #562885;
 }

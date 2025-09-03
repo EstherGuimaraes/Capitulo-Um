@@ -6,7 +6,7 @@ body{
     background-color: #fff6ea;
 }
 header{
-    background-color: #9863e9;
+    background-color: #ac7adf;
     padding: 20px;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -42,7 +42,8 @@ button.botao-perfil {
 .perfilImg {
     width: 70px;
     height: auto;
-    margin-left: -400px;;
+    margin-left: -400px;
+    margin-top: -15px;
 }
 button.botao-sacola {
     background-color: transparent;
@@ -54,7 +55,8 @@ button.botao-sacola {
 .sacolaImg {
     width: 68px;
     height: auto;
-    margin-left: -120px;;
+    margin-left: -120px;
+    margin-top: -15px;
 }
 button.botao-favorito {
     background-color: transparent;
@@ -66,7 +68,8 @@ button.botao-favorito {
 .favoritoImg {
     width: 70px;
     height: auto;
-    margin-right: -158px;;
+    margin-right: -158px;
+    margin-top: -15px;
 }
 
 h1 {
@@ -178,11 +181,11 @@ hr{
     align-items: center;
     margin-top: 2%;
     margin-bottom: 5%;
-    gap: -1px;
+    gap: 15px;
 }
 
 button.finalizar {
-    width: 50%;
+    width: 130%;
     background-color: #fff;
     color: #562585;
     font-size: 90%;
@@ -192,10 +195,11 @@ button.finalizar {
     text-align: center;
     cursor: pointer;
     margin: 0;
+    margin-left: -9%;
 }
 
 button.continuar {
-    width: 50%;
+    width: 109%;
     background-color: #fff;
     color: #562585;
     font-size: 90%;
@@ -209,8 +213,8 @@ button.continuar {
 
 .total {
     display:flex ;
-    gap: 9%;
+    gap: 8,5%;
     justify-content:space-between;
     align-items: center;
-    margin-left: 2%;
+    margin-left: 0.5%;
 }

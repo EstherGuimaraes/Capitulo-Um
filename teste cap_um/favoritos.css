@@ -6,7 +6,7 @@ body{
     background-color: #fff6ea;
 }
 header{
-    background-color: #9863e9;
+    background-color: #ac7adf;
     padding: 20px;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -14,7 +14,7 @@ header{
 
 .logo{
     margin-left: 0%;
-    margin-top: 0%;
+    margin-top: -1%;
     background-color: #562885;
     min-height: 90px;
     display: flex;
@@ -42,8 +42,8 @@ header{
     height: 400px;
     width: 400px;
     position: absolute;
-    left: -86px;
-    top: -92px;
+    left: -89px;
+    top: -94px;
 
 }
 
@@ -71,7 +71,8 @@ button.botao-perfil {
 .perfilImg {
     width: 70px;
     height: auto;
-    margin-left: -400px;;
+    margin-left: -400px;
+    margin-top: -15px;
 }
 button.botao-sacola {
     background-color: transparent;
@@ -83,7 +84,8 @@ button.botao-sacola {
 .sacolaImg {
     width: 68px;
     height: auto;
-    margin-left: -120px;;
+    margin-left: -120px;
+    margin-top: -15px;
 }
 button.botao-favorito {
     background-color: transparent;
@@ -95,7 +97,8 @@ button.botao-favorito {
 .favoritoImg {
     width: 70px;
     height: auto;
-    margin-right: -158px;;
+    margin-right: -158px;
+    margin-top: -15px;
 }
 
 .livro{
