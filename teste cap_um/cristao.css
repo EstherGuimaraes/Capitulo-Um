@@ -288,3 +288,12 @@ h1{
     min-width: 180px;
     margin: 0 10px;
 }
+.livrocs{
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    max-width: 600px;
+    margin: 20px;
+    padding: 30px 30px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
