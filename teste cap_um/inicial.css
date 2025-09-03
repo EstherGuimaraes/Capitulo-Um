@@ -1,3 +1,4 @@
+
 *{
     margin: 0%;
     padding: 0;
@@ -53,6 +54,7 @@ button.botao-pesquisa {
     cursor: pointer;
     width: 40px;
     height: auto;
+    margin-top: 0%;
 }
 
 .pesquisaImg {
@@ -192,3 +194,97 @@ h1{
 .botao-comprar:hover {
     background-color: #ac7adf;
 }
+
+.carrossel-container {
+    position: relative;
+    max-width: 600px;
+    margin: 30px auto 0 auto;
+}
+.carrossel-slide {
+    display: none;
+}
+.carrossel-slide img {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.carrossel-prev, .carrossel-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #562885;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background: rgba(255,255,255,0.7);
+    transition: 0.2s;
+}
+.carrossel-next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.carrossel-prev:hover, .carrossel-next:hover {
+    background: #eee;
+}
+.carrossel-dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+.carrossel-dot.active {
+    background-color: #562885;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 0.7s;
+}
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+.carrossel-livros {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto 30px auto;
+    position: relative;
+}
+.carrossel-livros-viewport {
+    overflow: hidden;
+    width: 1000px;
+}
+.carrossel-livros-list {
+    display: flex;
+    transition: transform 0.4s;
+}
+.carrossel-livros-btn {
+    background: #fff;
+    border: 1px solid #562885;
+    color: #562885;
+    font-size: 2rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 2;
+}
+.carrossel-livros-btn.left {
+    margin-right: 10px;
+}
+.carrossel-livros-btn.right {
+    margin-left: 10px;
+}
+.carrossel-livros-list .livro {
+    min-width: 180px;
+    margin: 0 10px;
+}
+

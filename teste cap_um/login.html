@@ -9,16 +9,10 @@
 </head>
 <body>
     <div class="logo">
-        <img class="imgLogo" src="FAÇA SEU LOGIN.png" alt="logo">
-        <button class="botao-perfil">
-            <img class="perfilImg" src="perfil.png" alt="">
-        </button>
-        <button class="botao-sacola">
-            <img class="sacolaImg" src="sacola.png" alt="">
-        </button>
-        <button class="botao-favorito">
-            <img class="favoritoImg" src="favoritos.png" alt="">
-        </button>
+            <img class="imgLogo" src="/IMG/FAÇA SEU LOGIN.png" alt="logo">
+            <a href="login.html"><button class="botao-perfil"><img class="perfilImg" src="/IMG/perfil.png" alt=""></button></a>
+            <a href="carrinho.html"><button class="botao-sacola"><img class="sacolaImg" src="/IMG/sacola.png" alt=""></button></a>
+            <a href="favoritos.html"><button class="botao-favorito"><img class="favoritoImg" src="/IMG/favoritos.png" alt=""></button></a>
     </div>
 
     <header>
@@ -30,7 +24,7 @@
             <div class="titulo-container">
                 <h1>Faça seu login</h1>
             </div>
-            <hr class="linha-titulo" />
+            <hr class="linha-titulo"/>
 
             <label for="email">E-mail</label>
             <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
@@ -38,7 +32,7 @@
             <label for="senha">Senha</label>
             <div class="senha-container">
                 <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
-                <a href="/redefinir senha/redefinir.html" class="esqueceu-link">Esqueceu?</a>
+                <a href="redefinir.html" class="esqueceu-link">Esqueceu?</a>
             </div>
 
 
@@ -67,11 +61,12 @@
 
         <div>
             <p class="link-cadastro">
-                Não tem conta? <a href="/cadastro/cadastro.html">Cadastre-se</a>
+                Não tem conta? <a href="cadastro.html">Cadastre-se</a> <br>
+                <br>
+                Ache a sua conta <a href="achesuaconta.html">aqui</a>
             </p>
         </div>
     </main>
 
-    <script src="barra.js"></script>
 </body>
 </html>
