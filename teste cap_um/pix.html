@@ -8,16 +8,18 @@
     <title>Document</title>
 </head>
 <body>
-        <div class="logo">
-            <img class="imgLogo" src="IMG/FAÇA SEU LOGIN.png" alt="logo" >
-                <button class="botao-perfil"><img class="perfilImg" src="IMG/perfil.png" alt=""></button>
-                <button class="botao-sacola"><img class="sacolaImg" src="IMG/sacola.png" alt=""></button>
-                <button class="botao-favorito"><img class="favoritoImg" src="IMG/favoritos.png" alt=""></button>
+        <div id="logo" class="logo">
+                <a href="inicial.html"><img id="imgLogo" class="imgLogo" src="IMG/FAÇA SEU LOGIN.png" alt="logo"></a>
+                <input type="text" id="pesquisa" class="pesquisa">
+                <button class="botao-pesquisa"><img id="pesquisaImg" class="pesquisaImg" src="IMG/pesquisa .png" alt=""></button>
+                <a href="login.html"><button id="botao-perfil" class="botao-perfil"><img class="perfilImg" src="IMG/perfil.png" alt=""></button></a>
+                <a href="carrinho.html"><button id="botao-sacola" class="botao-sacola"><img class="sacolaImg" src="IMG/sacola.png" alt=""></button></a>
+                <a href="favoritos.html"><button id="boatao-favorito" class="botao-favorito"><img class="favoritoImg" src="IMG/favoritos.png" alt=""></button></a>
         </div>
 
         <header>
              
-        <div class="menu-header">
+        <div id="menu-header" class="menu-header">
        
             <nav>
                 
@@ -26,45 +28,45 @@
 
 </header>
 <main>
-    <div class="pix">
+    <div id="pix" class="pix">
         <h1>O seu pedido foi finalizado com sucesso!</h1>
         <h2>___________________________________________</h2>
 
         <p>Para fazer o pagamento de seu pedido, escaneie o QRCODE abaixo ou copie e cole o código PIX em seu aplicativo de pagamento</p>
     </div>
-    <div class="resumo-box">
-    <button class="voltar">
+    <div id="resumo-box" class="resumo-box">
+    <button id="voltar" class="voltar">
         <h2>voltar ao carrinho</h2>
     </button>
     <h3>Resumo do pedido</h3>
 
-    <div class="produto">
+    <div id="produto" class="produto">
       <img src="IMG/Site.jpg" alt="Livro Os sete maridos de Evelyn Hugo">
-      <div class="produto-info">
+      <div id="produto-info" class="produto-info">
         Os sete maridos de Evelyn Hugo
-        <div class="preco">R$ 49,90</div>
+        <div id="preco" class="preco">R$ 49,90</div>
       </div>
     </div>
 
-    <div class="cupom">
+    <div id="cupom" class="cupom">
       <input type="text" placeholder="Código">
       <button>Adicionar</button>
     </div>
 
-    <div class="linha"></div>
+    <div id="linha" class="linha"></div>
 
-    <div class="valores"><span>Subtotal</span><span>R$ 49,90</span></div>
-    <div class="valores"><span>Total</span><span>R$ 49,90</span></div>
+    <div id="valores" class="valores"><span>Subtotal</span><span>R$ 49,90</span></div>
+    <div id="valores" class="valores"><span>Total</span><span>R$ 49,90</span></div>
 
-    <div class="linha"></div>
+    <div id="linha" class="linha"></div>
 
-    <div class="observacao">
+    <div id="observacao" class="observacao">
       <label for="obsevacao">Observação</label>
       <input type="text">
     </div>
   </div>
 
-  <div class="pix1">
+  <div id="pix1" class="pix1">
       <label for="pagamento">Pagamento via PIX:</label>
       <button onclick="gerarPix()">Gerar código PIX</button>
       <div id="pixCode" class="pix-code" style="display:none;"></div>

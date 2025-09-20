@@ -11,31 +11,31 @@
 
 </head>
 <body>
-     <div class="logo">
-            <img class="imgLogo" src="IMG/FAÇA SEU LOGIN.png" alt="logo" >
-                <input type="text" class="pesquisa">
-                <button class="botao-pesquisa"><img class="pesquisaImg" src="IMG/pesquisa .png" alt=""></button>
-                <a href="login.html"><button class="botao-perfil"><img class="perfilImg" src="IMG/perfil.png" alt=""></button></a>
-                <a href="carrinho.html"><button class="botao-sacola"><img class="sacolaImg" src="IMG/sacola.png" alt=""></button></a>
-                <a href="favoritos.html"><button class="botao-favorito"><img class="favoritoImg" src="IMG/favoritos.png" alt=""></button></a>
+        <div id="logo" class="logo">
+                <img id="imgLogo" class="imgLogo" src="IMG/FAÇA SEU LOGIN.png" alt="logo" >
+                <input type="text" id="pesquisa" class="pesquisa">
+                <button class="botao-pesquisa"><img id="pesquisaImg" class="pesquisaImg" src="IMG/pesquisa .png" alt=""></button>
+                <a href="login.html"><button id="botao-perfil" class="botao-perfil"><img class="perfilImg" src="IMG/perfil.png" alt=""></button></a>
+                <a href="carrinho.html"><button id="botao-sacola" class="botao-sacola"><img class="sacolaImg" src="IMG/sacola.png" alt=""></button></a>
+                <a href="favoritos.html"><button id="boatao-favorito" class="botao-favorito"><img class="favoritoImg" src="IMG/favoritos.png" alt=""></button></a>
         </div>
 
-        <header>
+    <header>   
              
         <div class="menu-header">
        
             <nav>
-                <a class="aaaa" href="inicial.html">Todos</a>
-                <a class="aaaa" href="romance.html">Romance</a>
-                <a class="aaaa" href="suspense.html">Suspense</a>
-                <a class="aaaa" href="ficção.html">Ficção</a>
-                <a class="aaaa" href="fantasia.html">Fantasia</a>
-                <a class="aaaa" href="cristao.html">Cristão</a>
-                <a class="aaaa" href="terror.html">Terror</a>
-                <a class="aaaa" href="bibliografia.html">Bibliografia</a>
-                <a class="aaaa" href="infantil.html">Infantil</a>
-                <a class="aaaa" href="drama.html">Drama</a>
-               <a class="aaaa" href="poema.html">Poema</a>
+                <a id="Todos" class="aaaa" href="inicial.html">Todos</a>
+                <a id="romance" class="aaaa" href="romance.html">Romance</a>
+                <a id="suspense" class="aaaa" href="suspense.html">Suspense</a>
+                <a id="ficção" class="aaaa" href="ficção.html">Ficção</a>
+                <a id="fantasia" class="aaaa" href="fantasia.html">Fantasia</a>
+                <a id="Aventura" class="aaaa" href="av">Aventura</a>
+                <a id="terror" class="aaaa" href="#Terror">Terror</a>
+                <a id="bibliografia" class="aaaa" href="#Bibliografia">Bibliografia</a>
+                <a id="infantil" class="aaaa" href="#Infantil">Infantil</a>
+                <a id="drama" class="aaaa" href="#Drama">Drama</a>
+                <a id="poema" class="aaaa" href="#Poema">Poema</a>
             </nav>
          </div>
 
@@ -70,104 +70,161 @@ function showSlides(n) {
 }
 </script>
     
-<section class="fileira1">
-    <div class="carrossel-livros">
-        <button class="carrossel-livros-btn left" onclick="scrollLivros(-1)">&#10094;</button>
-        <div class="carrossel-livros-viewport">
-            <div class="carrossel-livros-list">
-                <!-- Livros -->
-                <div class="livro">
-                    <button class="livrofv-btn"><img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar"></button>
-                    <img src="IMG/1.png" alt="">
-                    <p class="nomelivro">Lady Killers: Assassinas em Série </p>
-                    <p class="nomeautor">Tori Telfer</p>
-                    <p class="valor">R$ 42,65</p>
-                    <button class="botao-comprar">Comprar</button>
+<section id="fileira1" class="fileira1">
+    <div id="carrossel-livros1" class="carrossel-livros">
+        <!-- Botão esquerdo -->
+        <button id="carrossel-btn-left1" class="carrossel-livros-btn left" onclick="scrollLivros(-1)">
+            &#10094;
+        </button>
+
+        <!-- Área de visualização -->
+        <div id="carrossel-viewport1" class="carrossel-livros-viewport">
+            <div id="carrossel-list1" class="carrossel-livros-list">
+
+                <!-- Livro 1 -->
+                <div id="livro1" class="livro">
+                    <button id="btn-favorito1" class="livrofv-btn">
+                        <img id="fav-img1" class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
+                    </button>
+                    <img id="img-livro1" class="img-livro" src="IMG/1.png" alt="Lady Killers: Assassinas em Série">
+                    <p id="nome-livro1" class="nomelivro">Lady Killers: Assassinas em Série</p>
+                    <p id="autor-livro1" class="nomeautor">Tori Telfer</p>
+                    <p id="preco-livro1" class="valor">R$ 42,65</p>
+                    <button id="comprar-livro1" class="botao-comprar">Comprar</button>
                 </div>
-                <div class="livro">
-                    <button class="livrofv-btn"><img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar"></button>
-                    <img src="IMG/2.png" alt="">
-                    <p class="nomelivro">Os Sete Maridos de Evelyn Hugo </p>
-                    <p class="nomeautor"> Reid</p>
-                    <p class="valor">R$ 45,00</p>
-                    <a href="produto.html"><button class="botao-comprar">Comprar</button></a>
+
+                <!-- Livro 2 -->
+                <div id="livro2" class="livro">
+                    <button id="btn-favorito2" class="livrofv-btn">
+                        <img id="fav-img2" class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
+                    </button>
+                    <img id="img-livro2" class="img-livro" src="IMG/2.png" alt="Os Sete Maridos de Evelyn Hugo">
+                    <p id="nome-livro2" class="nomelivro">Os Sete Maridos de Evelyn Hugo</p>
+                    <p id="autor-livro2" class="nomeautor">Reid</p>
+                    <p id="preco-livro2" class="valor">R$ 45,00</p>
+                    <a id="link-livro2" class="link-produto" href="produto.html">
+                        <button id="comprar-livro2" class="botao-comprar">Comprar</button>
+                    </a>
                 </div>
-                <div class="livro">
-                    <button class="livrofv-btn"><img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar"></button>
-                    <img src="IMG/3.png" alt="">
-                    <p class="nomelivro">O lado feio do amor </p>
-                    <p class="nomeautor">Colleen Hoover</p>
-                    <p class="valor">R$ 44,22</p>
-                    <button class="botao-comprar">Comprar</button>
+
+                <!-- Livro 3 -->
+                <div id="livro3" class="livro">
+                    <button id="btn-favorito3" class="livrofv-btn">
+                        <img id="fav-img3" class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
+                    </button>
+                    <img id="img-livro3" class="img-livro" src="IMG/3.png" alt="O lado feio do amor">
+                    <p id="nome-livro3" class="nomelivro">O lado feio do amor</p>
+                    <p id="autor-livro3" class="nomeautor">Colleen Hoover</p>
+                    <p id="preco-livro3" class="valor">R$ 44,22</p>
+                    <button id="comprar-livro3" class="botao-comprar">Comprar</button>
                 </div>
-                <div class="livro">
-                    <button class="livrofv-btn"><img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar"></button>
-                    <img src="IMG/4.png" alt="">
-                    <p class="nomelivro">Jogos de Herança</p>
-                    <p class="nomeautor">Jennifer Lynn Barnes</p>
-                    <p class="valor">R$ 42,65</p>
-                    <button class="botao-comprar">Comprar</button>
+
+                <!-- Livro 4 -->
+                <div id="livro4" class="livro">
+                    <button id="btn-favorito4" class="livrofv-btn">
+                        <img id="fav-img4" class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
+                    </button>
+                    <img id="img-livro4" class="img-livro" src="IMG/4.png" alt="Jogos de Herança">
+                    <p id="nome-livro4" class="nomelivro">Jogos de Herança</p>
+                    <p id="autor-livro4" class="nomeautor">Jennifer Lynn Barnes</p>
+                    <p id="preco-livro4" class="valor">R$ 42,65</p>
+                    <button id="comprar-livro4" class="botao-comprar">Comprar</button>
                 </div>
-                <div class="livro">
-                    <button class="livrofv-btn"><img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar"></button>
-                    <img src="IMG/5.png" alt="">
-                    <p class="nomelivro">É Assim que Acaba</p>
-                    <p class="nomeautor">Colleen Hoover</p>
-                    <p class="valor">R$ 29,00</p>
-                    <button class="botao-comprar">Comprar</button>
+
+                <!-- Livro 5 -->
+                <div id="livro5" class="livro">
+                    <button id="btn-favorito5" class="livrofv-btn">
+                        <img id="fav-img5" class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
+                    </button>
+                    <img id="img-livro5" class="img-livro" src="IMG/5.png" alt="É Assim que Acaba">
+                    <p id="nome-livro5" class="nomelivro">É Assim que Acaba</p>
+                    <p id="autor-livro5" class="nomeautor">Colleen Hoover</p>
+                    <p id="preco-livro5" class="valor">R$ 29,00</p>
+                    <button id="comprar-livro5" class="botao-comprar">Comprar</button>
                 </div>
-                <div class="livro">
-                    <button class="livrofv-btn"><img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar"></button>
-                    <img src="IMG/6.png" alt="">
-                    <p class="nomelivro">A Seleção </p>
-                    <p class="nomeautor">kiera Cass</p>
-                    <p class="valor">R$ 43,13</p>
-                    <button class="botao-comprar">Comprar</button>
+
+                <!-- Livro 6 -->
+                <div id="livro6" class="livro">
+                    <button id="btn-favorito6" class="livrofv-btn">
+                        <img id="fav-img6" class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
+                    </button>
+                    <img id="img-livro6" class="img-livro" src="IMG/6.png" alt="A Seleção">
+                    <p id="nome-livro6" class="nomelivro">A Seleção</p>
+                    <p id="autor-livro6" class="nomeautor">Kiera Cass</p>
+                    <p id="preco-livro6" class="valor">R$ 43,13</p>
+                    <button id="comprar-livro6" class="botao-comprar">Comprar</button>
                 </div>
-                <div class="livro">
-                    <button class="livrofv-btn"><img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar"></button>
-                    <img src="IMG/7.png" alt="">
-                    <p class="nomelivro">Corte de Espinhos e Rosas (Vol.1)</p>
-                    <p class="nomeautor"> Sarah J. Maas</p>
-                    <p class="valor">R$ 29,00</p>
-                    <button class="botao-comprar">Comprar</button>
+
+                <!-- Livro 7 -->
+                <div id="livro7" class="livro">
+                    <button id="btn-favorito7" class="livrofv-btn">
+                        <img id="fav-img7" class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
+                    </button>
+                    <img id="img-livro7" class="img-livro" src="IMG/7.png" alt="Corte de Espinhos e Rosas">
+                    <p id="nome-livro7" class="nomelivro">Corte de Espinhos e Rosas (Vol.1)</p>
+                    <p id="autor-livro7" class="nomeautor">Sarah J. Maas</p>
+                    <p id="preco-livro7" class="valor">R$ 29,00</p>
+                    <button id="comprar-livro7" class="botao-comprar">Comprar</button>
                 </div>
-                <div class="livro">
-                    <button class="livrofv-btn"><img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar"></button>
-                    <img src="IMG/8.png" alt="">
-                    <p class="nomelivro">Vermelho, Branco e Sangue Azul</p>
-                    <p class="nomeautor">Casey McQuiston</p>
-                    <p class="valor">R$ 35,00</p>
-                    <button class="botao-comprar">Comprar</button>
+
+                <!-- Livro 8 -->
+                <div id="livro8" class="livro">
+                    <button id="btn-favorito8" class="livrofv-btn">
+                        <img id="fav-img8" class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
+                    </button>
+                    <img id="img-livro8" class="img-livro" src="IMG/8.png" alt="Vermelho, Branco e Sangue Azul">
+                    <p id="nome-livro8" class="nomelivro">Vermelho, Branco e Sangue Azul</p>
+                    <p id="autor-livro8" class="nomeautor">Casey McQuiston</p>
+                    <p id="preco-livro8" class="valor">R$ 35,00</p>
+                    <button id="comprar-livro8" class="botao-comprar">Comprar</button>
                 </div>
-                <div class="livro">
-                    <button class="livrofv-btn"><img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar"></button>
-                    <img src="IMG/9.png" alt="">
-                    <p class="nomelivro">O Príncipe Cruel</p>
-                    <p class="nomeautor">Holly Black</p>
-                    <p class="valor">R$ 49,00</p>
-                    <button class="botao-comprar">Comprar</button>
+
+                <!-- Livro 9 -->
+                <div id="livro9" class="livro">
+                    <button id="btn-favorito9" class="livrofv-btn">
+                        <img id="fav-img9" class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
+                    </button>
+                    <img id="img-livro9" class="img-livro" src="IMG/9.png" alt="O Príncipe Cruel">
+                    <p id="nome-livro9" class="nomelivro">O Príncipe Cruel</p>
+                    <p id="autor-livro9" class="nomeautor">Holly Black</p>
+                    <p id="preco-livro9" class="valor">R$ 49,00</p>
+                    <button id="comprar-livro9" class="botao-comprar">Comprar</button>
                 </div>
-                <div class="livro">
-                    <button class="livrofv-btn"><img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar"></button>
-                    <img src="IMG/10.png" alt="">
-                    <p class="nomelivro">Não Confie em Ninguém</p>
-                    <p class="nomeautor">Charlie Donlea</p>
-                    <p class="valor">R$ 52,90</p>
-                    <button class="botao-comprar">Comprar</button>
+
+                <!-- Livro 10 -->
+                <div id="livro10" class="livro">
+                    <button id="btn-favorito10" class="livrofv-btn">
+                        <img id="fav-img10" class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
+                    </button>
+                    <img id="img-livro10" class="img-livro" src="IMG/10.png" alt="Não Confie em Ninguém">
+                    <p id="nome-livro10" class="nomelivro">Não Confie em Ninguém</p>
+                    <p id="autor-livro10" class="nomeautor">Charlie Donlea</p>
+                    <p id="preco-livro10" class="valor">R$ 52,90</p>
+                    <button id="comprar-livro10" class="botao-comprar">Comprar</button>
                 </div>
-                <div class="livro">
-                    <button class="livrofv-btn"><img id="favorito" class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar"></button>
-                    <img src="IMG/11.png" alt="">
-                    <p class="nomelivro">A hipótese do amor</p>
-                    <p class="nomeautor">Ali Hazelwood</p>
-                    <p class="valor">R$ 35,00</p>
-                    <button class="botao-comprar">Comprar</button>
+
+                <!-- Livro 11 -->
+                <div id="livro11" class="livro">
+                    <button id="btn-favorito11" class="livrofv-btn">
+                        <img id="fav-img11" class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
+                    </button>
+                    <img id="img-livro11" class="img-livro" src="IMG/11.png" alt="A hipótese do amor">
+                    <p id="nome-livro11" class="nomelivro">A hipótese do amor</p>
+                    <p id="autor-livro11" class="nomeautor">Ali Hazelwood</p>
+                    <p id="preco-livro11" class="valor">R$ 35,00</p>
+                    <button id="comprar-livro11" class="botao-comprar">Comprar</button>
                 </div>
+
             </div>
         </div>
-        <button class="carrossel-livros-btn right" onclick="scrollLivros(1)">&#10095;</button>
+
+        <!-- Botão direito -->
+        <button id="carrossel-btn-right1" class="carrossel-livros-btn right" onclick="scrollLivros(1)">
+            &#10095;
+        </button>
     </div>
+</section>
+
 </section>
 
 <script>
@@ -183,246 +240,130 @@ function scrollLivros(direction) {
 }
 </script>
 
-         <section>
-           
-            <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/26.png" alt="">
-                 <p class="nomelivro">Força Clandestina</p>
-                <p class="nomeautor">Jack Mars</p>
-                <p class="valor">R$ 37,90</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-             <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/28.png" alt="">
-                <p class="nomelivro">Pedra papel tesoura</p>
-                <p class="nomeautor">Alice Feeneys</p>
-                <p class="valor">R$ 55,00</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-             <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/29.png" alt="">
-                <p class="nomelivro">Uma Família Feliz</p>
-                <p class="nomeautor">Raphael Montes</p>
-                <p class="valor">R$ 48,43</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-             <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/30.png" alt="">
-                <p class="nomelivro">Nunca Minta</p>
-                <p class="nomeautor">Freida McFadden</p>
-                <p class="valor">R$ 49,90</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-             <div class="livro">
-                <button class="livrofv-btn">
-                <img class="livrofv" src="IMG/favoritosPreto.png" alt="">
-    </button>
-                <img src="IMG/31.png" alt="">
-                <p class="nomelivro">Eu e Esse Meu Coração</p>
-                <p class="nomeautor">C. C. Hunter</p>
-                <p class="valor">R$  41,80</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-             <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/32.png" alt="">
-                <p class="nomelivro">Deixa Nevar</p>
-                <p class="nomeautor">Camila Antunes</p>
-                <p class="valor">R$ 59,90</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-             
-         </section>
-         <section>
-             <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/18.png" alt="">
-                <p class="nomelivro">A Garota do Lago</p>
-                <p class="nomeautor">Charlie Donlea</p>
-                <p class="valor">R$  44,49</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-             <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/19.png" alt="">
-                <p class="nomelivro">Sem Pistas</p>
-                <p class="nomeautor">Blake Pierce</p>
-                <p class="valor">R$ 30,00</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-             <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/20.png" alt="">
-                <p class="nomelivro">Novembro, 9</p>
-                <p class="nomeautor">Collen Hover</p>
-                <p class="valor">R$ 55,90</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-             <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/21.png" alt="">
-                <p class="nomelivro">As Mil Partes do Meu...</p>
-                <p class="nomeautor">Collen Hover</p>
-                <p class="valor">R$ 50,99</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-             <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/22.png" alt="">
-                <p class="nomelivro">Se Ela Soubesse</p>
-                <p class="nomeautor">Blake Pierce</p>
-                <p class="valor">R$ 30,00</p>
-                <button class="botao-comprar">Comprar</button>0
-            </div>
-            <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/33.png" alt="">
-                <p class="nomelivro">Uma Oração de Amor</p>
-                <p class="nomeautor">Lyta Racielly</p>
-                <p class="valor">R$ 39,80</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-         </section>
-         <section>
-             <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/12.png" alt="">
-                <p class="nomelivro"> A biblioteca da meia-noite </p>
-                <p class="nomeautor">Matt Haig</p>
-                <p class="valor">R$ 49,90</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-            <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/13.png" alt="">
-                <p class="nomelivro">Até o Verão Terminar </p>
-                <p class="nomeautor">Collen Hoover</p>
-                <p class="valor">R$ 41,90</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-            <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/14.png" alt="">
-                <p class="nomelivro">Não é Como nos Filmes </p>
-                <p class="nomeautor">Lynn Painter</p>
-                <p class="valor">R$ 41,90</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-            <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/15.png" alt="">
-                <p class="nomelivro">Mil Vezes Amor </p>
-                <p class="nomeautor">Lynn Painter</p>
-                <p class="valor">R$ 41,90</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-            <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/16.png" alt="">
-                <p class="nomelivro">Melhor do que nos Filmes</p>
-                <p class="nomeautor">Lynn Painter</p>
-                <p class="valor">R$ 41,90</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-            <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/27.png" alt="">
-                <p class="nomelivro">Uma Mulher no Escuro</p>
-                <p class="nomeautor">Raphael Montes</p>
-                <p class="valor">R$ 44,99</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-         </section>
-         <section>
-             <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/23.png" alt="">
-                <p class="nomelivro">Jantar Secreto</p>
-                <p class="nomeautor">Raphael Montes</p>
-                <p class="valor">R$ 37,44 </p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-            <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/24.png" alt="">
-                <p class="nomelivro">O Limite do Céu</p>
-                <p class="nomeautor">Marc J. Gregson</p>
-                <p class="valor">R$ 50,25</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-            <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/25.png" alt="">
-                <p class="nomelivro">A Empregada</p>
-                <p class="nomeautor">Freida McFadden</p>
-                <p class="valor">R$ 44,90</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-            <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/33.png" alt="">
-                <p class="nomelivro">Uma Oração de Amor</p>
-                <p class="nomeautor">Lyta Racielly</p>
-                <p class="valor">R$ 39,80</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-            <div class="livro">
-                <button class="livrofv-btn">
-        <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar">
-    </button>
-                <img src="IMG/17.png" alt="">
-                <p class="nomelivro">Verity</p>
-                <p class="nomeautor">Colleen Hoover</p>
-                <p class="valor">R$  39,80</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-         </section>
+<section>
+    <div class="livro" id="livro13">
+        <button class="livrofv-btn" id="livrofv-btn13">
+            <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar" id="livrofv13">
+        </button>
+        <img src="IMG/12.png" alt="" id="img13">
+        <p class="nomelivro" id="nomelivro13">A biblioteca da meia-noite</p>
+        <p class="nomeautor" id="nomeautor13">Matt Haig</p>
+        <p class="valor" id="valor13">R$ 49,90</p>
+        <button class="botao-comprar" id="botao-comprar13">Comprar</button>
+    </div>
+
+    <div class="livro" id="livro14">
+        <button class="livrofv-btn" id="livrofv-btn14">
+            <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar" id="livrofv14">
+        </button>
+        <img src="IMG/13.png" alt="" id="img14">
+        <p class="nomelivro" id="nomelivro14">Até o Verão Terminar</p>
+        <p class="nomeautor" id="nomeautor14">Collen Hoover</p>
+        <p class="valor" id="valor14">R$ 41,90</p>
+        <button class="botao-comprar" id="botao-comprar14">Comprar</button>
+    </div>
+
+    <div class="livro" id="livro15">
+        <button class="livrofv-btn" id="livrofv-btn15">
+            <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar" id="livrofv15">
+        </button>
+        <img src="IMG/14.png" alt="" id="img15">
+        <p class="nomelivro" id="nomelivro15">Não é Como nos Filmes</p>
+        <p class="nomeautor" id="nomeautor15">Lynn Painter</p>
+        <p class="valor" id="valor15">R$ 41,90</p>
+        <button class="botao-comprar" id="botao-comprar15">Comprar</button>
+    </div>
+
+    <div class="livro" id="livro16">
+        <button class="livrofv-btn" id="livrofv-btn16">
+            <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar" id="livrofv16">
+        </button>
+        <img src="IMG/15.png" alt="" id="img16">
+        <p class="nomelivro" id="nomelivro16">Mil Vezes Amor</p>
+        <p class="nomeautor" id="nomeautor16">Lynn Painter</p>
+        <p class="valor" id="valor16">R$ 41,90</p>
+        <button class="botao-comprar" id="botao-comprar16">Comprar</button>
+    </div>
+
+    <div class="livro" id="livro17">
+        <button class="livrofv-btn" id="livrofv-btn17">
+            <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar" id="livrofv17">
+        </button>
+        <img src="IMG/16.png" alt="" id="img17">
+        <p class="nomelivro" id="nomelivro17">Melhor do que nos Filmes</p>
+        <p class="nomeautor" id="nomeautor17">Lynn Painter</p>
+        <p class="valor" id="valor17">R$ 41,90</p>
+        <button class="botao-comprar" id="botao-comprar17">Comprar</button>
+    </div>
+
+    <div class="livro" id="livro18">
+        <button class="livrofv-btn" id="livrofv-btn18">
+            <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar" id="livrofv18">
+        </button>
+        <img src="IMG/27.png" alt="" id="img18">
+        <p class="nomelivro" id="nomelivro18">Uma Mulher no Escuro</p>
+        <p class="nomeautor" id="nomeautor18">Raphael Montes</p>
+        <p class="valor" id="valor18">R$ 44,99</p>
+        <button class="botao-comprar" id="botao-comprar18">Comprar</button>
+    </div>
+</section>
+
+<section>
+    <div class="livro" id="livro19">
+        <button class="livrofv-btn" id="livrofv-btn19">
+            <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar" id="livrofv19">
+        </button>
+        <img src="IMG/23.png" alt="" id="img19">
+        <p class="nomelivro" id="nomelivro19">Jantar Secreto</p>
+        <p class="nomeautor" id="nomeautor19">Raphael Montes</p>
+        <p class="valor" id="valor19">R$ 37,44</p>
+        <button class="botao-comprar" id="botao-comprar19">Comprar</button>
+    </div>
+
+    <div class="livro" id="livro20">
+        <button class="livrofv-btn" id="livrofv-btn20">
+            <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar" id="livrofv20">
+        </button>
+        <img src="IMG/24.png" alt="" id="img20">
+        <p class="nomelivro" id="nomelivro20">O Limite do Céu</p>
+        <p class="nomeautor" id="nomeautor20">Marc J. Gregson</p>
+        <p class="valor" id="valor20">R$ 50,25</p>
+        <button class="botao-comprar" id="botao-comprar20">Comprar</button>
+    </div>
+
+    <div class="livro" id="livro21">
+        <button class="livrofv-btn" id="livrofv-btn21">
+            <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar" id="livrofv21">
+        </button>
+        <img src="IMG/25.png" alt="" id="img21">
+        <p class="nomelivro" id="nomelivro21">A Empregada</p>
+        <p class="nomeautor" id="nomeautor21">Freida McFadden</p>
+        <p class="valor" id="valor21">R$ 44,90</p>
+        <button class="botao-comprar" id="botao-comprar21">Comprar</button>
+    </div>
+
+    <div class="livro" id="livro22">
+        <button class="livrofv-btn" id="livrofv-btn22">
+            <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar" id="livrofv22">
+        </button>
+        <img src="IMG/33.png" alt="" id="img22">
+        <p class="nomelivro" id="nomelivro22">Uma Oração de Amor</p>
+        <p class="nomeautor" id="nomeautor22">Lyta Racielly</p>
+        <p class="valor" id="valor22">R$ 39,80</p>
+        <button class="botao-comprar" id="botao-comprar22">Comprar</button>
+    </div>
+
+    <div class="livro" id="livro23">
+        <button class="livrofv-btn" id="livrofv-btn23">
+            <img class="livrofv" src="IMG/favoritosPreto.png" alt="Favoritar" id="livrofv23">
+        </button>
+        <img src="IMG/17.png" alt="" id="img23">
+        <p class="nomelivro" id="nomelivro23">Verity</p>
+        <p class="nomeautor" id="nomeautor23">Colleen Hoover</p>
+        <p class="valor" id="valor23">R$ 39,80</p>
+        <button class="botao-comprar" id="botao-comprar23">Comprar</button>
+    </div>
+</section>
 
          <script src="inicial.js"></script>
 </body>

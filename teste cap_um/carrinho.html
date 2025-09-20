@@ -8,12 +8,11 @@
     <title>Document</title>
 </head>
 <body>
-        <div class="logo">
-            <img class="imgLogo" src="IMG/FAÇA SEU LOGIN.png" alt="logo" >
-        
-                <a href="login.html"><button class="botao-perfil"><img class="perfilImg" src="IMG/perfil.png" alt=""></button></a>
-                <a href="carrinho.html"><button class="botao-sacola"><img class="sacolaImg" src="IMG/sacola.png" alt=""></button></a>
-                <a href="favoritos.html"><button class="botao-favorito"><img class="favoritoImg" src="IMG/favoritos.png" alt=""></button></a>
+        <div id="logo" class="logo">
+                <a href="inicial.html"><img id="imgLogo" class="imgLogo" src="IMG/FAÇA SEU LOGIN.png" alt="logo"></a>
+                <a href="login.html"><button id="botao-perfil" class="botao-perfil"><img class="perfilImg" src="IMG/perfil.png" alt=""></button></a>
+                <a href="carrinho.html"><button id="botao-sacola" class="botao-sacola"><img class="sacolaImg" src="IMG/sacola.png" alt=""></button></a>
+                <a href="favoritos.html"><button id="boatao-favorito" class="botao-favorito"><img class="favoritoImg" src="IMG/favoritos.png" alt=""></button></a>
         </div>
 
         <header>
@@ -24,25 +23,25 @@
     <h1>Carrinho de Compras</h1>
     <h2>___________________________</h2><br>
 
-    <div class="Carrinho">
+    <div id="Carrinho" class="Carrinho">
          <img class="imgCarrinho" src="IMG/carrinho.png" alt="livro1"><br>
         
     </div>  
 
     <h3>Seu carrinho está vazio ):</h3>
 
-    <div class="boxFrete">
+    <div id="boxFrete" class="boxFrete">
         <label for="Calcularfrete">Calcular Frete</label><br>
         
-        <div class="calculo">
+        <div id="calculo" class="calculo">
             <input type="text" placeholder="Inserir CEP">
             <button class="calcular">Calcular</button>
         </div>
         <hr></hr>
         
-        <div class="total"><span>Total:</span><span>00,00</span></div>
+        <div id="total" class="total"><span>Total:</span><span>00,00</span></div>
 
-        <div class="botoes">
+        <div id="botoes" class="botoes">
             <a href="finalizacao.html"><button class="finalizar">Finalizar Compra</button><br></a>
             <a href="inicial.html"><button class="continuar">Continuar Comprando</button></a>
         </div>

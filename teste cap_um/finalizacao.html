@@ -11,16 +11,18 @@
     <title>Document</title>
 </head>
 <body>
-        <div class="logo">
-            <img class="imgLogo" src="IMG/FAÇA SEU LOGIN.png" alt="logo" >
-                <a href="login.html"><button class="botao-perfil"><img class="perfilImg" src="IMG/perfil.png" alt=""></button></a>
-                <a href="carrinho.html"><button class="botao-sacola"><img class="sacolaImg" src="IMG/sacola.png" alt=""></button></a>
-                <a href="favoritos.html"><button class="botao-favorito"><img class="favoritoImg" src="IMG/favoritos.png" alt=""></button></a>
+        <div id="logo" class="logo">
+                <a href="inicial.html"><img id="imgLogo" class="imgLogo" src="IMG/FAÇA SEU LOGIN.png" alt="logo"></a>
+                <input type="text" id="pesquisa" class="pesquisa">
+                <button class="botao-pesquisa"><img id="pesquisaImg" class="pesquisaImg" src="IMG/pesquisa .png" alt=""></button>
+                <a href="login.html"><button id="botao-perfil" class="botao-perfil"><img class="perfilImg" src="IMG/perfil.png" alt=""></button></a>
+                <a href="carrinho.html"><button id="botao-sacola" class="botao-sacola"><img class="sacolaImg" src="IMG/sacola.png" alt=""></button></a>
+                <a href="favoritos.html"><button id="boatao-favorito" class="botao-favorito"><img class="favoritoImg" src="IMG/favoritos.png" alt=""></button></a>
         </div>
 
         <header>
              
-        <div class="menu-header">
+        <div id="menu-header" class="menu-header">
        
     
          </div>
@@ -32,66 +34,74 @@
         <h1>Finalizar Compra</h1>
         <h2>___________________________</h2><br>
         
-        <div class="informações">
+        <div id="informacoes" class="informacoes">
 
             <label for="Nome completo">Nome Completo</label><br>
-            <input type="text" placeholder="Nome Completo" required><br>
+            <input type="text" id="nome" placeholder="Nome Completo" required><br>
 
             <label for="Email">Email</label><br>
-            <input type="email" placeholder="Email" required><br>
+            <input type="email" id="email" placeholder="Email" required><br>
 
             <label for="Endereço">Endereço</label><br>
-            <input type="text" placeholder="Endereço de Entrega" required><br> 
+            <input type="text" id="endereço" placeholder="Endereço de Entrega" required><br> 
 
             <label for="Complemento">Complemento</label><br>
-            <input type="text" placeholder="Complemento" required><br>
+            <input type="text" id="Complemento" placeholder="Complemento" required><br>
 
             <label for="CPF">CPF</label><br>
-            <input type="text" placeholder="CPF" required><br>
+            <input type="text" id="CPF" placeholder="CPF" required><br>
 
         </div>
-        <div class="pagamento">
+        <div id="pagamento" class="pagamento">
             <label for="Forma de Pagamento">Forma de Pagamento</label><br>
 
-            <a href="cartao.html"><button class="botão-débito">Débito</button></a>
-            <a href="cartao.html"><button class="botão-crédito">Crédito</button></a>
-            <a href="pix.html"><button class="botão-pix">Pix</button></a>
+            <a href="cartao.html"><button id="botao-debito" class="botão-débito">Débito</button></a>
+            <a href="cartao.html"><button id="botao-credito" class="botão-crédito">Crédito</button></a>
+            <a href="pix.html"><button id="botao-pix" class="botão-pix">Pix</button></a>
         </div>
 
         
-        <div class="resumo-box">
-            <a href="carrinho.html"><button class="voltar">
-            <h2>Voltar ao carrinho</h2>
-            </button></a>
+        <div id="resumo-box1" class="resumo-box">
+        <a id="link-voltar1" class="link-voltar" href="carrinho.html">
+        <button id="btn-voltar1" class="voltar">
+            <h2 id="titulo-voltar1" class="titulo-voltar">Voltar ao carrinho</h2>
+        </button>
+    </a>
 
+    <h3 id="titulo-resumo1" class="titulo-resumo">Resumo do pedido</h3>
 
-            <h3>Resumo do pedido</h3>
-
-            <div class="produto">
-                <img src="IMG/Site.jpg" alt="Livro Os sete maridos de Evelyn Hugo">
-                <div class="produto-info">
-                Os sete maridos de Evelyn Hugo
-                <div class="preco">R$ 49,90</div>
-                </div>
+    <div id="produto1" class="produto">
+        <img id="produto-img1" class="produto-img" src="IMG/Site.jpg" alt="Livro Os sete maridos de Evelyn Hugo">
+        <div id="produto-info1" class="produto-info">
+            <span id="produto-nome1" class="produto-nome">Os sete maridos de Evelyn Hugo</span>
+            <div id="preco1" class="preco">R$ 49,90</div>
         </div>
+    </div>
 
-        <div class="cupom">
-            <input type="cupom" placeholder="Código">
-            <button>Adicionar</button>
-        </div>
+    <div id="cupom1" class="cupom">
+        <input id="input-cupom1" class="input-cupom" type="text" placeholder="Código">
+        <button id="btn-cupom1" class="btn-cupom">Adicionar</button>
+    </div>
 
-        <div class="linha"></div>
+    <div id="linha1" class="linha"></div>
 
-            <div class="valores"><span>Subtotal</span><span>R$ 49,90</span></div>
-            <div class="valores"><span>Total</span><span>R$ 49,90</span></div>
+    <div id="valores-subtotal1" class="valores">
+        <span id="label-subtotal1" class="label-subtotal">Subtotal</span>
+        <span id="valor-subtotal1" class="valor-subtotal">R$ 49,90</span>
+    </div>
 
-            <div class="linha"></div>
+    <div id="valores-total1" class="valores">
+        <span id="label-total1" class="label-total">Total</span>
+        <span id="valor-total1" class="valor-total">R$ 49,90</span>
+    </div>
 
-            <div class="observacao">
-            <label>Observação</label>
-            <input type="observacao" placeholder="">
-            </div>
-        </div>
+    <div id="linha2" class="linha"></div>
+
+    <div id="observacao1" class="observacao">
+        <label id="label-observacao1" class="label-observacao">Observação</label>
+        <input id="input-observacao1" class="input-observacao" type="text" placeholder="">
+    </div>
+</div>
 
     </main>
         </div>

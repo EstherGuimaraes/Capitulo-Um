@@ -8,63 +8,67 @@
     <title>Inicial</title>
 </head>
 <body>
-        <div class="logo">
-            <img class="imgLogo" src="IMG/FAÇA SEU LOGIN.png" alt="logo" >
-                <input type="text" class="pesquisa">
-                <button class="botao-pesquisa"><img class="pesquisaImg" src="IMG/pesquisa .png" alt=""></button>
-                <a href="login.html"><button class="botao-perfil"><img class="perfilImg" src="IMG/perfil.png" alt=""></button></a>
-                <a href="carrinho.html"><button class="botao-sacola"><img class="sacolaImg" src="IMG/sacola.png" alt=""></button></a>
-                <a href="favoritos.html"><button class="botao-favorito"><img class="favoritoImg" src="IMG/favoritos.png" alt=""></button></a>
+        <div id="logo" class="logo">
+                <a href="inicial.html"><img id="imgLogo" class="imgLogo" src="IMG/FAÇA SEU LOGIN.png" alt="logo"></a>
+                <input type="text" id="pesquisa" class="pesquisa">
+                <button class="botao-pesquisa"><img id="pesquisaImg" class="pesquisaImg" src="IMG/pesquisa .png" alt=""></button>
+                <a href="login.html"><button id="botao-perfil" class="botao-perfil"><img class="perfilImg" src="IMG/perfil.png" alt=""></button></a>
+                <a href="carrinho.html"><button id="botao-sacola" class="botao-sacola"><img class="sacolaImg" src="IMG/sacola.png" alt=""></button></a>
+                <a href="favoritos.html"><button id="boatao-favorito" class="botao-favorito"><img class="favoritoImg" src="IMG/favoritos.png" alt=""></button></a>
         </div>
 
-        <header>
+    <header>   
              
         <div class="menu-header">
        
             <nav>
-                <a class="aaaa" href="inicial.html">Todos</a>
-                <a class="aaaa" href="romance.html">Romance</a>
-                <a class="aaaa" href="suspense.html">Suspense</a>
-                <a class="aaaa" href="ficção.html">Ficção</a>
-                <a class="aaaa" href="fantasia.html">Fantasia</a>
-                <a class="aaaa" href="cristao.html">Cristão</a>
-                <a class="aaaa" href="terror.html">Terror</a>
-                <a class="aaaa" href="bibliografia.html">Bibliografia</a>
-                <a class="aaaa" href="infantil.html">Infantil</a>
-                <a class="aaaa" href="drama.html">Drama</a>
-               <a class="aaaa" href="poema.html">Poema</a>
+                <a id="inicial" class="aaaa" href="inicial.html">Todos</a>
+                <a id="romance" class="aaaa" href="romance.html">Romance</a>
+                <a id="suspense" class="aaaa" href="suspense.html">Suspense</a>
+                <a id="ficção" class="aaaa" href="ficção.html">Ficção</a>
+                <a id="fantasia" class="aaaa" href="fantasia.html">Fantasia</a>
+                <a id="cristao" class="aaaa" href="cristao.html">Cristão</a>
+                <a id="terror" class="aaaa" href="terror.html">Terror</a>
+                <a id="bibliografia" class="aaaa" href="bibliografia.html">Bibliografia</a>
+                <a id="infantil" class="aaaa" href="infantil.html">Infantil</a>
+                <a id="drama" class="aaaa" href="drama.html">Drama</a>
+               <a id="poema" class="aaaa" href="poema.html">Poema</a>
             </nav>
          </div>
 
 </header>
 <main>
 
-    <div class="produtos">
-        <button class="buttonFavoritar"><img class="imgFavorito" src="IMG/favoritosPreto.png" alt=""></button>
-        <img class="imgProduto" src="IMG/Site.jpg" alt="livro1">
+    <div class="produtos" id="produto1"> 
+    <button class="buttonFavoritar" id="buttonFavoritar1">
+        <img class="imgFavorito" src="IMG/favoritosPreto.png" alt="" id="imgFavorito1">
+    </button>
+
+    <img class="imgProduto" src="IMG/Site.jpg" alt="livro1" id="imgProduto1">
             
-        <div class="detalhes">
-            <h1>Os Sete Maridos de Evelyn Hugo</h1>
-            <h2>Taylor Jenkins Reid</h2>
-            <h2>Editora: Paralela</h2>
-            <h3>R$ 45,00</h3>
+    <div class="detalhes" id="detalhes1">
+        <h1 id="titulo1">Os Sete Maridos de Evelyn Hugo</h1>
+        <h2 id="autor1">Taylor Jenkins Reid</h2>
+        <h2 id="editora1">Editora: Paralela</h2>
+        <h3 id="valor1">R$ 45,00</h3>
 
-            <div class="quantidade">
-                <button>-</button>
-                <input type="text" id="Qtd" value="1" min="1" max="10">
-                <button>+</button>
-                
-            </div>
-
-            <a href="carrinho.html"><button class="adicionarCarrinho">Adicionar ao Carrinho</button></a>
-           
-            <div class="dados">
-                <a href="sinopse.html"><button class="sinopse">Sinopse</button></a>
-                <a href="ficha.html"><button class="ficha">Ficha Técnica</button></a>
-            </div>
+        <div class="quantidade" id="quantidade1">
+            <button id="diminuirQtd1">-</button>
+            <input type="text" id="Qtd1" value="1" min="1" max="10">
+            <button id="aumentarQtd1">+</button>
         </div>
-      
+
+        <a href="carrinho.html">
+            <button class="adicionarCarrinho" id="adicionarCarrinho1">Adicionar ao Carrinho</button>
+        </a>
+           
+        <div class="dados" id="dados1">
+            <a href="sinopse.html"><button class="sinopse" id="sinopse1">Sinopse</button></a>
+            <a href="ficha.html"><button class="ficha" id="ficha1">Ficha Técnica</button></a>
+        </div>
     </div>
+</div>
+
 
     
 </main>
