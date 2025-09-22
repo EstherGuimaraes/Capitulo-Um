@@ -23,6 +23,15 @@ header{
     align-items: center;
 }
 
+.pesquisa{
+  width: 30%;
+  height: 30px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: #fff 2px solid;
+  margin-left: 20%;
+}
+
 .aaaa{
     margin-left: 60px;
     color: #fff;
@@ -42,6 +51,12 @@ header{
 
 }
 
+.pesquisaImg {
+  width: 100%;
+  height: 40%;
+  margin-left: -100px;
+}
+
 button.botao-pesquisa {
     background-color: transparent;
     border: none;
@@ -52,9 +67,10 @@ button.botao-pesquisa {
 }
 
 .pesquisaImg {
-    width: 100%;
-    height: 40%;
-    margin-left: -100px;
+  width: 100%;
+  height: 40%;
+  margin-left: -100px;
+  margin-top: -15px;
 }
 
 button.botao-perfil {
