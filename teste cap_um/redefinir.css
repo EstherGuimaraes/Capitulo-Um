@@ -1,6 +1,6 @@
 *{
     margin: 0%;
-    padding: 0;
+    padding: 0%;
 }
 body{
     background-color: #fff6ea;
@@ -51,7 +51,6 @@ button.botao-pesquisa {
     cursor: pointer;
     width: 40px;
     height: auto;
-    margin-top: 0%;
 }
 
 .pesquisaImg {
@@ -170,6 +169,3 @@ button {
 .label-esquerda{
     margin-right: 2%;
 }
-
-
-

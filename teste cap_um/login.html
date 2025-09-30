@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -10,8 +10,6 @@
 <body>
         <div id="logo" class="logo">
                 <a href="inicial.html"><img id="imgLogo" class="imgLogo" src="IMG/FAÇA SEU LOGIN.png" alt="logo"></a>
-                <input type="text" id="pesquisa" class="pesquisa">
-                <button class="botao-pesquisa"><img id="pesquisaImg" class="pesquisaImg" src="IMG/pesquisa .png" alt=""></button>
                 <a href="login.html"><button id="botao-perfil" class="botao-perfil"><img class="perfilImg" src="IMG/perfil.png" alt=""></button></a>
                 <a href="carrinho.html"><button id="botao-sacola" class="botao-sacola"><img class="sacolaImg" src="IMG/sacola.png" alt=""></button></a>
                 <a href="favoritos.html"><button id="boatao-favorito" class="botao-favorito"><img class="favoritoImg" src="IMG/favoritos.png" alt=""></button></a>
@@ -38,7 +36,7 @@
 
 
             
-            <button type="submit">Entrar</button>
+            <button class="botao-enviar" type="submit">Enviar</button>
             <div id="link-esqueci-senha" class="link-esqueci-senha"></div>
         </div>
 
@@ -51,6 +49,7 @@
         <div id="social-buttons" class="social-buttons">
             <button id="social-btn" class="social-btn google-btn">
                 <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google logo">
+                <script src="https://apis.google.com/js/platform.js" async defer></script>
                 <span>Google</span>
             </button>
 
@@ -69,6 +68,6 @@
         </div>
     </main>
 
-    <script src="login.js"></script>
+    <script src="./Arquivos.js/login.js"></script>
 </body>
 </html>

@@ -1,81 +1,40 @@
-const form = document.getElementById("form-cadastro");
-const nome = document.getElementById("nome");
-const email = document.getElementById("email");
-const data = document.getElementById("data_nascimento");
-const cpf = document.getElementById("CPF");
-const telefone = document.getElementById("telefone");
-const senha = document.getElementById("senha");
+const form = document.getElementById('form-cadastro');
 
-form.addEventListener("submit", (event) => {
-    event.preventDefault(); // Impede o envio do formulário por padrão
+form.addEventListener('submit', function(event) {
+    event.preventDefault(); // Impede o envio padrão do formulário e o recarregamento da página
 
-    // Inicializa a validação
-    let isValid = true;
+    const nome = document.getElementById('nome').value;
+    const email = document.getElementById('email').value;
+    const dataNascimento = document.getElementById('data_nascimento').value;
+    const cpf = document.getElementById('CPF').value;
+    const telefone = document.getElementById('telefone').value;
+    const senha = document.getElementById('senha').value;
 
-    // Limpa as mensagens de erro anteriores (se houver)
-    clearErrors();
-
-    // Valida o campo nome
-    if (nome.value.trim() === "") {
-        isValid = false;
-        showError(nome, "Por favor, preencha o nome.");
+    if (nome === '') {
+        alert('Por favor, preencha o campo Nome.');
     }
-
-    // Valida o campo email
-    if (email.value.trim() === "") {
-        isValid = false;
-        showError(email, "Por favor, preencha o email.");
+    else if (email === '') {
+        alert('Por favor, preencha o campo E-mail.');
     }
-
-    // Valida o campo data
-    if (data.value.trim() === "") {
-        isValid = false;
-        showError(data, "Por favor, preencha a data de nascimento.");
+    else if (dataNascimento === '') {
+        alert('Por favor, preencha o campo Data de Nascimento.');
     }
-
-    // Valida o campo CPF
-    if (cpf.value.trim() === "") {
-        isValid = false;
-        showError(cpf, "Por favor, preencha o CPF.");
+    else if (cpf === '') {
+        alert('Por favor, preencha o campo CPF.');
     }
-
-    // Valida o campo telefone
-    if (telefone.value.trim() === "") {
-        isValid = false;
-        showError(telefone, "Por favor, preencha o telefone.");
+    else if (telefone === '') {
+        alert('Por favor, preencha o campo Telefone.');
     }
-
-    // Valida o campo senha
-    if (senha.value.trim() === "") {
-        isValid = false;
-        showError(senha, "Por favor, preencha a senha.");
+    else if (senha === '') {
+        alert('Por favor, preencha o campo Senha.');
     }
+    else {
+        // Se todos os campos estiverem preenchidos, a lógica de sucesso deve vir aqui
+        console.log('Dados validados com sucesso. Preparando para o envio.');
 
-    // Se todos os campos estiverem válidos, procede com o envio
-    if (isValid) {
-        alert("Cadastro realizado com sucesso!");
-        form.submit(); // Envia o formulário
+        // Por exemplo, exibir uma mensagem de sucesso na tela:
+        alert('Cadastro realizado com sucesso!');
+        
+        form.reset();
     }
 });
-
-/**
- * Adiciona uma mensagem de erro abaixo do elemento de input.
- * @param {HTMLElement} inputElement - O elemento de input inválido.
- * @param {string} message - A mensagem de erro a ser exibida.
- */
-function showError(inputElement, message) {
-    const parent = inputElement.parentElement;
-    const errorDiv = document.createElement("div");
-    errorDiv.className = "error-message";
-    errorDiv.style.color = "red";
-    errorDiv.innerText = message;
-    parent.appendChild(errorDiv);
-}
-
-/**
- * Remove todas as mensagens de erro do formulário.
- */
-function clearErrors() {
-    const errorMessages = document.querySelectorAll(".error-message");
-    errorMessages.forEach(error => error.remove());
-}

@@ -11,8 +11,6 @@
 <body>
         <div id="logo" class="logo">
                 <a href="inicial.html"><img id="imgLogo" class="imgLogo" src="IMG/FAÇA SEU LOGIN.png" alt="logo"></a>
-                <input type="text" id="pesquisa" class="pesquisa">
-                <button class="botao-pesquisa"><img id="pesquisaImg" class="pesquisaImg" src="IMG/pesquisa .png" alt=""></button>
                 <a href="login.html"><button id="botao-perfil" class="botao-perfil"><img class="perfilImg" src="IMG/perfil.png" alt=""></button></a>
                 <a href="carrinho.html"><button id="botao-sacola" class="botao-sacola"><img class="sacolaImg" src="IMG/sacola.png" alt=""></button></a>
                 <a href="favoritos.html"><button id="boatao-favorito" class="botao-favorito"><img class="favoritoImg" src="IMG/favoritos.png" alt=""></button></a>
@@ -29,7 +27,7 @@
         <hr id="linha-titulo" class="linha-titulo"/>
     </div>
        
-        <form action="/processar" method="post"></form>
+        <form action="/processar" id="form" method="post"></form>
         <label for="nova-senha"class="label-esquerda">Nova senha</label>
         <input type="password" id="senha" name="senha" placeholder="Digite sua nova senha" required><br>
         <label for="confirmar-senha">Confirmar senha</label>
@@ -39,7 +37,7 @@
     </main>
  
 
-    <script src="redefinir.js"></script>
+    <script src="./Arquivos.js/redefinir.js"></script>
     
 </body>
 </html>
