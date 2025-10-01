@@ -8,16 +8,18 @@
     <title>Final</title>
 </head>
 <body>
-        <div class="logo">
-            <img class="imgLogo" src="IMG/FAÇA SEU LOGIN.png" alt="logo" >
-                <button class="botao-perfil"><img class="perfilImg" src="IMG/perfil.png" alt=""></button>
-                <button class="botao-sacola"><img class="sacolaImg" src="IMG/sacola.png" alt=""></button>
-                <button class="botao-favorito"><img class="favoritoImg" src="IMG/favoritos.png" alt=""></button>
+        <div id="logo" class="logo">
+                <a href="inicial.html"><img id="imgLogo" class="imgLogo" src="IMG/FAÇA SEU LOGIN.png" alt="logo"></a>
+                <input type="text" id="pesquisa" class="pesquisa">
+                <button class="botao-pesquisa"><img id="pesquisaImg" class="pesquisaImg" src="IMG/pesquisa .png" alt=""></button>
+                <a href="login.html"><button id="botao-perfil" class="botao-perfil"><img class="perfilImg" src="IMG/perfil.png" alt=""></button></a>
+                <a href="carrinho.html"><button id="botao-sacola" class="botao-sacola"><img class="sacolaImg" src="IMG/sacola.png" alt=""></button></a>
+                <a href="favoritos.html"><button id="boatao-favorito" class="botao-favorito"><img class="favoritoImg" src="IMG/favoritos.png" alt=""></button></a>
         </div>
 
-        <header>
+<header>
              
-        <div class="menu-header">
+        <div id="menu-header" class="menu-header">
        
             <nav>
                 
@@ -27,17 +29,17 @@
 </header>
  
 <main>
-    <div class="final">
+    <div id="final" class="final">
         <h1>O seu pedido foi finalizado com sucesso!
 Em breve você receberá um e-mail no endereço aaaaaa@gmail.com com os detalhes do seu pedido</h1>
-<button class="pagamento">
+<button id="pagamento" class="pagamento">
     <h2>Pagamento aprovado</h2>
 </button>
     </div>
 
-    <div class="informacoes">
+    <div id="informacoes" class="informacoes">
         <h2>Detalhes do pedido</h2>
-        <h2 class="detalhes">
+        <h2 id="detalhes" class="detalhes">
             ID: <br>
             Total: <br>
             Formas de pagamento: <br>
@@ -46,7 +48,7 @@ Em breve você receberá um e-mail no endereço aaaaaa@gmail.com com os detalhes
         </h2>
     </div>
 </main>
-    <script src="barra.js"></script>
+    <script src="final.js"></script>
     
 </body>
 </html>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,58 +8,59 @@
     <title>Barra</title>
 </head>
 <body>
-    <div class="logo">
-            <img class="imgLogo" src="/IMG/FAÇA SEU LOGIN.png" alt="logo">
-            <a href="login.html"><button class="botao-perfil"><img class="perfilImg" src="/IMG/perfil.png" alt=""></button></a>
-            <a href="carrinho.html"><button class="botao-sacola"><img class="sacolaImg" src="/IMG/sacola.png" alt=""></button></a>
-            <a href="favoritos.html"><button class="botao-favorito"><img class="favoritoImg" src="/IMG/favoritos.png" alt=""></button></a>
-    </div>
+        <div id="logo" class="logo">
+                <a href="inicial.html"><img id="imgLogo" class="imgLogo" src="IMG/FAÇA SEU LOGIN.png" alt="logo"></a>
+                <a href="login.html"><button id="botao-perfil" class="botao-perfil"><img class="perfilImg" src="IMG/perfil.png" alt=""></button></a>
+                <a href="carrinho.html"><button id="botao-sacola" class="botao-sacola"><img class="sacolaImg" src="IMG/sacola.png" alt=""></button></a>
+                <a href="favoritos.html"><button id="boatao-favorito" class="botao-favorito"><img class="favoritoImg" src="IMG/favoritos.png" alt=""></button></a>
+        </div>
 
     <header>
     </header>
 
     <main>
-        <div class="login-container">
-            <div class="titulo-container">
+        <div id="login-container" class="login-container">
+            <div id="titulo-container" class="titulo-container">
                 <h1>Faça seu login</h1>
             </div>
-            <hr class="linha-titulo"/>
+            <hr id="linha-titulo" class="linha-titulo"/>
 
             <label for="email">E-mail</label>
             <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
 
             <label for="senha">Senha</label>
-            <div class="senha-container">
+            <div id="senha-container" class="senha-container">
                 <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
-                <a href="redefinir.html" class="esqueceu-link">Esqueceu?</a>
+                <a href="redefinir.html" id="esqueceu-link" class="esqueceu-link">Esqueceu?</a>
             </div>
 
 
             
-            <button type="submit">Entrar</button>
-            <div class="link-esqueci-senha"></div>
+            <button class="botao-enviar" type="submit">Enviar</button>
+            <div id="link-esqueci-senha" class="link-esqueci-senha"></div>
         </div>
 
-        <div class="divider">
+        <div id="divider" class="divider">
             <hr>
             <span>ou</span>
             <hr>
         </div>
 
-        <div class="social-buttons">
-            <button class="social-btn google-btn">
+        <div id="social-buttons" class="social-buttons">
+            <button id="social-btn" class="social-btn google-btn">
                 <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google logo">
+                <script src="https://apis.google.com/js/platform.js" async defer></script>
                 <span>Google</span>
             </button>
 
-            <button class="social-btn facebook-btn">
+            <button id="social-btn" class="social-btn facebook-btn">
                 <img src="logoFacebook.png" alt="Facebook logo">
                 <span>Facebook</span>
             </button>
         </div>
 
         <div>
-            <p class="link-cadastro">
+            <p id="link-cadastro" class="link-cadastro">
                 Não tem conta? <a href="cadastro.html">Cadastre-se</a> <br>
                 <br>
                 Ache a sua conta <a href="achesuaconta.html">aqui</a>
@@ -67,5 +68,6 @@
         </div>
     </main>
 
+    <script src="./Arquivos.js/login.js"></script>
 </body>
 </html>

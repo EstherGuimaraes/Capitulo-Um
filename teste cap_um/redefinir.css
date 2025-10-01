@@ -1,6 +1,6 @@
 *{
     margin: 0%;
-    padding: 0;
+    padding: 0%;
 }
 body{
     background-color: #fff6ea;
@@ -21,6 +21,13 @@ header{
     justify-content: center;
     align-items: center;
 }
+.pesquisa{
+    width: 30%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: #fff 2px solid;
+}
 .aaaa{
     margin-left: 60px;
     color: #fff;
@@ -28,8 +35,6 @@ header{
 }
 .aaaa:hover{
     text-decoration: underline;
-    
-
 }
 .imgLogo{
     height: 400px;
@@ -39,6 +44,21 @@ header{
     top: -92px;
 
 }
+
+button.botao-pesquisa {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: auto;
+}
+
+.pesquisaImg {
+    width: 100%;
+    height: 40%;
+    margin-left: -100px;
+}
+
 button.botao-perfil {
     background-color: transparent;
     border: none;
@@ -49,7 +69,8 @@ button.botao-perfil {
 .perfilImg {
     width: 70px;
     height: auto;
-    margin-right: 10%;
+    margin-left: -400px;
+    margin-top: -15px;
 }
 button.botao-sacola {
     background-color: transparent;
@@ -61,8 +82,8 @@ button.botao-sacola {
 .sacolaImg {
     width: 68px;
     height: auto;
-    margin-left: 61%;
-    margin-top: 2px;
+    margin-left: -120px;
+    margin-top: -15px;
 }
 button.botao-favorito {
     background-color: transparent;
@@ -75,7 +96,7 @@ button.botao-favorito {
     width: 70px;
     height: auto;
     margin-right: -158px;
-    margin-left: 95%;
+    margin-top: -15px;
 }
 main {
     padding: 20px;
@@ -90,8 +111,7 @@ main {
     font-optical-sizing: auto; 
     font-weight: bold;
     font-style: normal;
-    font-variation-settings:
-    "wdth" 50;
+    font-variation-settings:"wdth" 50;
 }
 
 input[type="text"],
@@ -149,6 +169,3 @@ button {
 .label-esquerda{
     margin-right: 2%;
 }
-
-
-
