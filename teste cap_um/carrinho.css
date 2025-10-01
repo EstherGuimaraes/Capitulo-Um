@@ -71,6 +71,8 @@ button.botao-favorito {
     margin-top: -15px;
 }
 
+
+
 h1 {
     font-family: "Open Sans", sans-serif;
     color: #562885;
@@ -93,6 +95,54 @@ h2 {
     align-items: center;
     margin-top: 13%;
 }
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+}
+
+li img{
+    width: 12%;
+    height: auto;
+    margin-left: 2%;
+}
+
+li{
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    align-items: center;
+    justify-content: ;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    margin-left: 6%;
+    margin-top: 3%;
+}
+
+li h2{
+    font-family: "Open Sans", sans-serif;
+    color: #562885;
+    font-size: 120%;
+    margin-left: 1%;
+    
+}
+
+.detalhes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 2%;
+   
+}
+
+li p{
+    font-family: "Open Sans", sans-serif;
+    color: #562885;
+}
+
 .imgCarrinho {
     width: 10%;
     height: auto;

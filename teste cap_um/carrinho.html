@@ -23,6 +23,20 @@
     <h1>Carrinho de Compras</h1>
     <h2>___________________________</h2><br>
 
+    <ul id="lista-carrinho">
+        <li id="item-carrinho">
+            <img id="imgProduto" src="IMG/Site.jpg" alt="">  
+            
+            <div class="detalhes">
+                <h2 id="titulo">Os Sete Maridos de Evelyn Hugo</h2>
+                <p id="autor">Taylor Jenkins Reid</p>
+                <p id="valor">R$ 45,00</p>
+            </div>
+            <button onclick="removerCarrinho('Os Sete Maridos de Evelyn Hugo', 45)" class="removerCarrinho" id="removerCarrinho">Remover do Carrinho</button>
+            
+        </li>
+    </ul>
+
     <div id="Carrinho" class="Carrinho">
          <img class="imgCarrinho" src="IMG/carrinho.png" alt="livro1"><br>
         
@@ -42,7 +56,7 @@
         <div id="total" class="total"><span>Total:</span><span>00,00</span></div>
 
         <div id="botoes" class="botoes">
-            <a href="finalizacao.html"><button class="finalizar">Finalizar Compra</button><br></a>
+            <a href="finalizacao.html"><button id="finalizarCompra" class="finalizar">Finalizar Compra</button><br></a>
             <a href="inicial.html"><button class="continuar">Continuar Comprando</button></a>
         </div>
     </div>
@@ -51,7 +65,7 @@
 </main>
  
 
-    <script src="carrinho.js"></script>
+    <script src="./Arquivos.js/carrinho.js"></script>
     
 </body>
 </html>
