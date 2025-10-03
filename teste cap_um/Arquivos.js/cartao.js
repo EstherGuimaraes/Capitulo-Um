@@ -1,48 +1,18 @@
-const nome = document.getElementById("nome-cartao");
-const numero = document.getElementById("numero-cartao");
-const validade = document.getElementById("tempo");
-const cvv = document.getElementById("seguranca");
-const botao = document.getElementById("botao-adicionar");
 
+    let carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
 
-nome.addEventListener("input", function() {
-    const valor = nome.value.toUpperCase();
-    nome.value = valor;
-});
+    function atualizarResumo() {
+        let quantidadeTotal = 0;
+        let valorTotal = 0;
 
-numero.addEventListener("input", function() {            
-    let valor = numero.value.replace(/\D/g, ''); 
-    valor = valor.substring(0, 16); 
-    const partes = [];  
-    for (let i = 0; i < valor.length; i += 4) {
-        partes.push(valor.substring(i, i + 4));
-    }   
-    numero.value = partes.join(' ');
-}); 
+        carrinho.forEach(item => {
+            quantidadeTotal += item.quantidade || 1; 
+            valorTotal += (item.preco || 0) * (item.quantidade || 1);
+        });
 
-cvv.addEventListener("input", function() {
-    let valor = cvv.value.replace(/\D/g, ''); 
-    valor = valor.substring(0, 3); 
-    cvv.value = valor;
-});
-botao.addEventListener("click", function(event) {   
-    event.preventDefault();
-    if (nome.value === '' || numero.value === '' || validade.value === '' || cvv.value === '') {
-        alert('Por favor, preencha todos os campos.');
-        return;
-    }   
-    alert('Cartão adicionado com sucesso!');
-    nome.value = '';
-    numero.value = '';
-    validade.value = '';
-    cvv.value = '';
-});
+        document.getElementById('quantidade').innerText = `Quantidade: ${quantidadeTotal}`;
 
-alert("parabéns, compra realizada com sucesso!");
-
-setTimeout(function() {
-window.location.href = 'final.html';
-}, 5000);
-
-
+        document.getElementById('subtotal').innerText = `R$ ${valorTotal.toFixed(2).replace('.', ',')}`;
+        document.getElementById('valor').innerText = `R$ ${valorTotal.toFixed(2).replace('.', ',')}`;
+    }
 

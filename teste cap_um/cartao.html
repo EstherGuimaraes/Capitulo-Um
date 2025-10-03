@@ -44,39 +44,45 @@
         <input type="checkbox" id="checked" class="checked" name="remember"> Salvar este cartão para compras futuras
     </label>
     
-     <div id="resumo-box" class="resumo-box">
-    <a href="carrinho.html"><button class="voltar">
-        <h2>voltar ao carrinho</h2>
-    </button></a>
-    <h3>Resumo do pedido</h3>
+    <div class="resumo-box">
+            <a href="carrinho.html"><button class="voltar">
+            <h2>Voltar ao carrinho</h2>
+            </button></a>
 
-    <div id="produto" class="produto">
-      <img src="IMG/Site.jpg" alt="Livro Os sete maridos de Evelyn Hugo">
-      <div class="produto-info">
-        Os sete maridos de Evelyn Hugo
-        <div class="preco">R$ 49,90</div>
-      </div>
-    </div>
 
-    <div id="cupom" class="cupom">
-      <input type="text" placeholder="Código">
-      <button>Adicionar</button>
-    </div>
+            <h3>Resumo do pedido</h3>
 
-    <div id="linha" class="linha"></div>
+            <div class="produto">
+                <img src="IMG/Site.jpg" alt="Livro Os sete maridos de Evelyn Hugo">
+                <div class="produto-info">
+                Os sete maridos de Evelyn Hugo
+                <div class="preco">R$ 45,00</div>
+                <div id="quantidade"></div>
+                </div>
+        </div>
 
-    <div id="valores" class="valores"><span>Subtotal</span><span>R$ 49,90</span></div>
-    <div id="valores" class="valores"><span>Total</span><span>R$ 49,90</span></div>
+        <div class="cupom">
+            <input type="cupom" placeholder="Código">
+            <button>Adicionar</button>
+        </div>
 
-    <div id="linha" class="linha"></div>
+        <div class="linha"></div>
 
-    <div id="observacao" class="observacao">
-      <label>Observação</label>
-      <input type="text">
-    </div>
-  </div>
+            <div class="valores"><span>Subtotal</span><span id="subtotal">R$ 0,00</span></div>
+            <div id="valorTotal" class="valores"><span>Total</span><span id="valor">R$ 0,0</span></div>
 
-</main>
+            <div class="linha"></div>
+
+            <div class="observacao">
+            <label>Observação</label>
+            <input type="observacao" placeholder="">
+            </div>
+        </div>
+
+    </main>
+        </div>
+
+
  
 
     <script src="./Arquivos.js/cartao.js"></script>
